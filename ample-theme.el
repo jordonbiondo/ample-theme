@@ -3,7 +3,6 @@
 ;; Filename: ample-theme.el
 ;; Description: Calm Dark Theme for Emacs
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
-;; Maintainer: Jordon Biondo 
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: .1
 ;; Last-Updated: Wed Jul 24 01:05:30 2013 (-0400)
@@ -11,14 +10,15 @@
 ;;     Update #: 2
 ;; URL: github.com/jordonbiondo/ample-theme
 ;; Doc URL: 
-;; Keywords: 
-;; Compatibility: 
+;; Keywords: theme, dark
 ;; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 
 ;;; Commentary: 
 ;; 
-;; 
+;;  The ample theme is a calm dark theme. 
+;;  
+;;  Currently only full colored GUI support is provided, terminal support is not implemented
 ;; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 
