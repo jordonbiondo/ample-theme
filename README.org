@@ -1,0 +1,6 @@
+* ample-theme.el
+  A calm, dark theme for Emacs
+  - Full colored gui support only - no terminal support yet.
+
+** Screenshot
+   [[http://i.imgur.com/McJVjjG.png]]
