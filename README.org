@@ -1,6 +1,12 @@
 * ample-theme.el
   A calm, dark theme for Emacs
   - Full colored gui support only - no terminal support yet.
-
+** Installation
+*** Manual  
+    1. Ensure that the color-theme is installed
+    2. Place ample-theme in your load path and add (require 'ample-theme) to your .emacs
+       
+*** Marmalade
+    If marmalade is setup: (package-install 'ample-theme)
 ** Screenshot
-   [[http://i.imgur.com/McJVjjG.png]]
+    [[http://i.imgur.com/McJVjjG.png]]
