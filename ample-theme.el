@@ -1,50 +1,53 @@
 ;;; ample-theme.el --- Calm Dark Theme for Emacs
-;; 
+;;
 ;; Filename: ample-theme.el
 ;; Description: Calm Dark Theme for Emacs
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
-;; Version: .1
-;; Last-Updated: Wed Jul 24 01:05:30 2013 (-0400)
+;; Version: 0.11
+;; Last-Updated: Tue Aug  6 11:20:26 2013 (-0400)
 ;;           By: Jordon Biondo
-;;     Update #: 2
-;; URL: github.com/jordonbiondo/ample-theme
-;; Doc URL: 
+;;     Update #: 3
+;; URL: https://github.com/jordonbiondo/ample-theme
+;; Doc URL:
 ;; Keywords: theme, dark
-;; 
+;; Package-Requires: ((color-theme "6.6.5"))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
-;;; Commentary: 
-;; 
-;;  The ample theme is a calm dark theme. 
-;;  
+;;
+;;; Commentary:
+;;
+;;  The ample theme is a calm dark theme.
+;;
 ;;  Currently only full colored GUI support is provided, terminal support is not implemented
-;; 
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 ;;; Change Log:
-;; 
-;; 
+;;
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
 ;; published by the Free Software Foundation; either version 3, or
 ;; (at your option) any later version.
-;; 
+;;
 ;; This program is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;; General Public License for more details.
-;; 
+;;
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program; see the file COPYING.  If not, write to
 ;; the Free Software Foundation, Inc., 51 Franklin Street, Fifth
 ;; Floor, Boston, MA 02110-1301, USA.
-;; 
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 ;;; Code:
+
+
+(require 'color-theme)
 
 
 (defun ample-theme ()
@@ -120,6 +123,13 @@
 
      ;; trailing whitespace
      (trailing-whitespace ((t (:background "white" :bold t)))))))
+
+
+;;---------------------------------------------------------------------------
+;; Add to color theme list
+;;---------------------------------------------------------------------------
+(add-to-list 'color-themes '(ample-theme "Ample" "Jordon Biondo <biondoj@mail.gvsu.edu>"))
+
 
 (provide 'ample-theme)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
