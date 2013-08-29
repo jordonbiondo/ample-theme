@@ -11,7 +11,7 @@
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Doc URL:
 ;; Keywords: theme, dark
-;; Package-Requires: ((color-theme "6.6.5"))
+;; Package-Requires: ((color-theme "6.5.5"))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;;; Commentary:
