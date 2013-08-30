@@ -138,5 +138,5 @@
 
 
 (provide-theme 'ample)
-;; ;;;;;;;;;;;;;;;;;;;;;;;;
-;; ample-theme.el ends here.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; ample-theme.el ends here
