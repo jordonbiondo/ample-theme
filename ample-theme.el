@@ -4,7 +4,7 @@
 ;; Description: Calm Dark Theme for Emacs
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
-;; Version: 0.12
+;; Version: 0.2.1
 ;; Last-Updated: Fri Aug 30 00:11:31 2013 (-0400)
 ;;           By: Jordon Biondo
 ;;     Update #: 5
