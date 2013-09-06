@@ -121,7 +121,10 @@
    `(ido-first-match ((t (:foreground ,ample/blue))))
    `(ido-incomplete-regexp ((t (:foreground ,ample/red))))
    `(ido-subdir ((t (:foreground ,ample/yellow))))
-   
+
+   ;; man pages
+   `(Man-overstrike ((t (:foreground ,ample/blue))))
+   `(Man-underline ((t (:foreground ,ample/yellow))))
    ;; trailing whitespace
    `(trailing-whitespace ((t (:background "white" :bold t))))))
 
