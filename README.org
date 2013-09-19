@@ -8,4 +8,4 @@
 
     (load-theme 'ample t)
 ** Screenshot
-    [[http://i.imgur.com/McJVjjG.png]]
+    [[http://i.imgur.com/5AYS8EA.png]]
