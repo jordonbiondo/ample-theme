@@ -2,7 +2,7 @@
   A calm, dark theme for Emacs
   - Full colored gui support only - no terminal support yet.
 ** Installation
-    If marmalade is setup: 
+    If marmalade or MELPA are set up: 
 
     (package-install 'ample-theme)
 
