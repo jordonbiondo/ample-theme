@@ -82,10 +82,10 @@
    `(font-lock-variable-name-face ((t (:foreground ,ample/yellow))))
    `(font-lock-doc-face ((t (:foreground ,ample/dark-tan))))
    
-   `(mode-line ((t (:background "#454545"))))
-   
+   `(mode-line-inactive ((t (:background "#454545" :foreground "cornsilk4"))))
+   `(mode-line ((t (:background "cornsilk4" :foreground "#454545"))))
+
    `(hl-line ((t (:background "#1f1f1f"))))
-   `(mode-line-inactive ((t (:background "cornsilk4"))))
    
    `(powerline-inactive1 ((t (:foreground "gray50"))))
    `(powerline-active1 ((t (:foreground "gray50"))))
