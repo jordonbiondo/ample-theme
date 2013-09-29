@@ -84,6 +84,8 @@
    
    `(mode-line-inactive ((t (:background "#454545" :foreground "cornsilk4"))))
    `(mode-line ((t (:background "cornsilk4" :foreground "#454545"))))
+   
+   `(vertical-border ((t (:background "#454545" :foreground "#454545"))))
 
    `(hl-line ((t (:background "#1f1f1f"))))
    
