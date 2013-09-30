@@ -4,10 +4,10 @@
 ;; Description: Calm Dark Theme for Emacs
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
-;; Version: 0.2.3
-;; Last-Updated: Thu Sep 19 00:18:46 2013 (-0400)
+;; Version: 0.2.4
+;; Last-Updated: Sun Sep 29 17:01:14 2013 (-0400)
 ;;           By: Jordon Biondo
-;;     Update #: 8
+;;     Update #: 12
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, dark
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -85,6 +85,8 @@
    `(mode-line-inactive ((t (:background "#454545" :foreground "cornsilk4"))))
    `(mode-line ((t (:background "cornsilk4" :foreground "#454545"))))
    
+   `(linum ((t (:background nil :foreground ,ample/gray))))
+
    `(vertical-border ((t (:background "#454545" :foreground "#454545"))))
 
    `(hl-line ((t (:background "#1f1f1f"))))
