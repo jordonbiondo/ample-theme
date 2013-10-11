@@ -1,13 +1,13 @@
-;;; ample-theme.el --- Calm Dark Theme for Emacs
+;;; ample-theme.el --- Calm Dark Theme for Emacs 
 ;;
 ;; Filename: ample-theme.el
 ;; Description: Calm Dark Theme for Emacs
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
-;; Version: 0.2.4
-;; Last-Updated: Sun Sep 29 17:01:14 2013 (-0400)
+;; Version: 0.2.5
+;; Last-Updated: Fri Oct 11 14:23:51 2013 (-0400)
 ;;           By: Jordon Biondo
-;;     Update #: 12
+;;     Update #: 13
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, dark
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -51,6 +51,7 @@
       (ample/bright-yellow "#fffe0a")
       (ample/purple "#9b55c3")
       (ample/gray "#757575")
+      (ample/dark-gray "#656565")
       (ample/red "#cd5542")
       
       (ample/cursor "#f57e00")
@@ -72,6 +73,7 @@
    
    `(font-lock-builtin-face ((t (:foreground ,ample/light-blue))))
    `(font-lock-comment-face ((t (:foreground ,ample/gray))))
+   `(font-lock-comment-delimiter-face ((t (:foreground ,ample/dark-gray))))
    `(font-lock-function-name-face ((t (:foreground ,ample/green))))
    `(font-lock-keyword-face ((t (:foreground ,ample/blue))))
    `(font-lock-string-face ((t (:foreground ,ample/tan))))
@@ -86,6 +88,11 @@
    `(mode-line ((t (:background "cornsilk4" :foreground "#454545"))))
    
    `(linum ((t (:background nil :foreground ,ample/gray))))
+   
+   `(header-line ((t (:background ,ample/fg :foreground ,ample/bg))))
+   
+   `(isearch ((t (:background ,ample/orange :foreground ,ample/bg))))
+   `(lazy-highlight ((t (:background ,ample/bg :foreground ,ample/yellow :underline t))))
 
    `(vertical-border ((t (:background "#454545" :foreground "#454545"))))
 
