@@ -111,6 +111,10 @@
    `(powerline-active1 ((t (:foreground "gray50"))))
    
    `(minibuffer-prompt ((t (:foreground ,ample/bright-yellow :bold t))))
+
+   `(compilation-error ((t (:foreground ,ample/red :bold t))))
+   `(compilation-warning ((t (:foreground ,ample/orange :bold t))))
+   `(compilation-info ((t (:foreground ,ample/green :bold t))))
    
    ;; eshell
    `(eshell-ls-directory((t (:foreground ,ample/blue))))
