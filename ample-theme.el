@@ -117,8 +117,9 @@
    `(compilation-info ((t (:foreground ,ample/green :bold t))))
    
    ;; eshell
-   `(eshell-ls-directory((t (:foreground ,ample/blue))))
-   `(eshell-ls-product ((t (:foreground ,ample/purple))))
+   `(eshell-prompt ((t (:foreground ,ample/purple))))
+   `(eshell-ls-directory ((t (:foreground ,ample/blue))))
+   `(eshell-ls-product ((t (:foreground ,ample/orange))))
    `(eshell-ls-backup ((t (:foreground ,ample/darker-gray))))
    `(eshell-ls-executable ((t (:foreground ,ample/green))))
    
