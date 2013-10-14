@@ -103,8 +103,8 @@
    
    `(header-line ((t (:background ,ample/fg :foreground ,ample/bg))))
    
-   `(isearch ((t (:background ,ample/orange :foreground ,ample/bg))))
-   `(lazy-highlight ((t (:background ,ample/bg :foreground ,ample/yellow :underline t))))
+   `(isearch ((t (:background ,ample/blue :foreground ,ample/bg))))
+   `(lazy-highlight ((t (:background ,ample/bg :foreground ,ample/purple :underline t))))
 
    `(ace-jump-face-background ((t (:inherit font-lock-comment-face))))
    `(ace-jump-face-foreground ((t (:foreground ,ample/orange))))
