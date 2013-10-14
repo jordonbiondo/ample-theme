@@ -220,7 +220,7 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-
+;;;###autoload
 (defun ample-theme() 
   "Apply the ample-theme."
   (interactive)
