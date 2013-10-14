@@ -86,8 +86,9 @@
    `(font-lock-variable-name-face ((t (:foreground ,ample/yellow))))
    `(font-lock-doc-face ((t (:foreground ,ample/dark-tan))))
    
+   `(powerline-active1 ((t (:foreground ,ample/darkest-gray))))
    `(mode-line-inactive ((t (:background ,ample/darker-gray :foreground "cornsilk4"))))
-   `(mode-line ((t (:background "cornsilk4" :foreground ,ample/darker-gray))))
+   `(mode-line ((t (:background "cornsilk4" :foreground ,ample/darkest-gray))))
    
    `(linum ((t (:background nil :foreground ,ample/gray))))
    
