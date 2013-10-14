@@ -59,7 +59,16 @@
       (ample/cursor "#f57e00")
       (ample/fringe "#1f1f1f")
       (ample/region "#303030")
-      
+
+      (ample/rb0 "#81b0e3")
+      (ample/rb1 "#a5a5a5")
+      (ample/rb2 "#6190c3")
+      (ample/rb3 "#959595")
+      (ample/rb4 "#4170a3")
+      (ample/rb5 "#757575")
+
+
+
       (ample/bg "gray13")
       (ample/fg "#bdbdb3"))
   
@@ -187,8 +196,19 @@
    ;;`(helm-separator (( t ())))
    ;;`(helm-source-header (( t ())))
    ;;`(helm-visible-mark (( t ())))
-
-
+   
+   ;;(((((+ (- (* (/ ( or nil 4)  4) 9) 2) 10)))))
+   `(rainbow-delimiters-depth-1-face ((t (:foreground ,ample/rb0 :background nil))))
+   `(rainbow-delimiters-depth-2-face ((t (:foreground ,ample/rb1 :background nil))))
+   `(rainbow-delimiters-depth-3-face ((t (:foreground ,ample/rb2 :background nil))))
+   `(rainbow-delimiters-depth-4-face ((t (:foreground ,ample/rb3 :background nil))))
+   `(rainbow-delimiters-depth-5-face ((t (:foreground ,ample/rb4 :background nil))))
+   `(rainbow-delimiters-depth-6-face ((t (:foreground ,ample/rb5 :background nil))))
+   `(rainbow-delimiters-depth-7-face ((t (:foreground ,ample/rb0 :background nil))))
+   `(rainbow-delimiters-depth-8-face ((t (:foreground ,ample/rb1 :background nil))))
+   `(rainbow-delimiters-depth-9-face ((t (:foreground ,ample/rb2 :background nil))))
+      
+      
    ;; man pages
    `(Man-overstrike ((t (:foreground ,ample/blue))))
    `(Man-underline ((t (:foreground ,ample/yellow))))
