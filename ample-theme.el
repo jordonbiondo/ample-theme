@@ -5,9 +5,9 @@
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: 0.2.6
-;; Last-Updated: Mon Oct 14 11:24:44 2013 (-0400)
+;; Last-Updated: Mon Oct 14 13:07:30 2013 (-0400)
 ;;           By: Jordon Biondo
-;;     Update #: 14
+;;     Update #: 15
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, dark
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -52,6 +52,8 @@
       (ample/purple "#9b55c3")
       (ample/gray "#757575")
       (ample/dark-gray "#656565")
+      (ample/darker-gray "#454545")
+      (ample/darkest-gray "#252525")
       (ample/red "#cd5542")
       
       (ample/cursor "#f57e00")
@@ -84,8 +86,8 @@
    `(font-lock-variable-name-face ((t (:foreground ,ample/yellow))))
    `(font-lock-doc-face ((t (:foreground ,ample/dark-tan))))
    
-   `(mode-line-inactive ((t (:background "#454545" :foreground "cornsilk4"))))
-   `(mode-line ((t (:background "cornsilk4" :foreground "#454545"))))
+   `(mode-line-inactive ((t (:background ,ample/darker-gray :foreground "cornsilk4"))))
+   `(mode-line ((t (:background "cornsilk4" :foreground ,ample/darker-gray))))
    
    `(linum ((t (:background nil :foreground ,ample/gray))))
    
@@ -97,8 +99,8 @@
    `(ace-jump-face-background ((t (:inherit font-lock-comment-face))))
    `(ace-jump-face-foreground ((t (:foreground ,ample/orange))))
 
-   `(vertical-border ((t (:background "#454545" :foreground "#454545"))))
-
+   `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
+   
    `(hl-line ((t (:background "#1f1f1f"))))
    
    `(powerline-inactive1 ((t (:foreground "gray50"))))
@@ -109,7 +111,7 @@
    ;; eshell
    `(eshell-ls-directory((t (:foreground ,ample/blue))))
    `(eshell-ls-product ((t (:foreground ,ample/purple))))
-   `(eshell-ls-backup ((t (:foreground "#454545"))))
+   `(eshell-ls-backup ((t (:foreground ,ample/darker-gray))))
    `(eshell-ls-executable ((t (:foreground ,ample/green))))
    
    ;; shell
@@ -119,7 +121,7 @@
    `(erc-nick-default-face ((t (:foreground ,ample/blue))))
    `(erc-notice-face ((t (:foreground ,ample/green))))
    `(erc-input-face ((t (:foreground "white"))))
-   `(erc-timestamp-face ((t (:foreground "#454545"))))
+   `(erc-timestamp-face ((t (:foreground ,ample/darker-gray))))
    `(erc-prompt-face ((t (:foreground "#191919" :background ,ample/purple))))
    
    ;; Magit
