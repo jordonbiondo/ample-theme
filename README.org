@@ -7,5 +7,8 @@
     (package-install 'ample-theme)
 
     (load-theme 'ample t)
-** Screenshot
+** Screenshot of Emacs.app on osx
     [[http://i.imgur.com/5AYS8EA.png]]
+
+** Screenshot inside Terminal.app on osx
+   [[http://i.imgur.com/p15i1QM.png]]
