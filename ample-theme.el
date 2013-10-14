@@ -128,6 +128,8 @@
    
    ;; erc
    `(erc-nick-default-face ((t (:foreground ,ample/blue))))
+   `(erc-my-nick-face ((t (:foreground ,ample/yellow))))
+   `(erc-current-nick-face ((t (:foreground ,ample/light-blue))))
    `(erc-notice-face ((t (:foreground ,ample/green))))
    `(erc-input-face ((t (:foreground "white"))))
    `(erc-timestamp-face ((t (:foreground ,ample/darker-gray))))
