@@ -102,6 +102,9 @@
    `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
    
    `(hl-line ((t (:background "#1f1f1f"))))
+
+   `(highlight-indentation-face ((t (:background ,ample/darkest-gray))))
+     
    
    `(powerline-inactive1 ((t (:foreground "gray50"))))
    `(powerline-active1 ((t (:foreground "gray50"))))
