@@ -16,7 +16,7 @@
 ;;
 ;;  The ample theme is a calm dark theme.
 ;;
-;;  Currently only full colored GUI support is provided, terminal support is not implemented
+;;  Full colored term/gui support only, 256 and down support coming eventually. 
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
