@@ -209,6 +209,20 @@
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,ample/rb2 :background nil))))
       
       
+
+   ;; auto complete
+   `(ac-candidate-face((t (:foreground "black" :background ,ample/fg))))
+   `(ac-selection-face((t (:foreground ,ample/fg :background ,ample/blue))))
+   `(ac-candidate-mouse-face((t (:inherit ac-selection-face))))
+   `(ac-clang-candidate-face((t (:inherit ac-candidate-face))))
+   `(ac-clang-selection-face((t (:inherit ac-selection-face))))
+   `(ac-completion-face((t (:inherit font-lock-comment-face :underline t))))
+   `(ac-gtags-candidate-face((t (:inherit ac-candidate-face))))
+   `(ac-gtags-selection-face((t (:inherit ac-selection-face))))
+   `(ac-slime-menu-face((t (:inherit ac-candidate-face))))
+   `(ac-slime-selection-face((t (:inherit ac-selection-face))))
+   `(ac-yasnippet-candidate-face((t (:inherit ac-candidate-face))))
+   `(ac-yasnippet-selection-face((t (:inherit ac-selection-face))))
    ;; man pages
    `(Man-overstrike ((t (:foreground ,ample/blue))))
    `(Man-underline ((t (:foreground ,ample/yellow))))
