@@ -42,6 +42,7 @@
 
 ;; Not a bad idea to define a palette...
 (let ((ample/green "#6aaf50")
+      (ample/dark-green "#057f10")
       (ample/blue "#5180b3")
       (ample/light-blue "#528fd1")
       (ample/orange "#FF8512")
@@ -55,7 +56,8 @@
       (ample/darker-gray "#454545")
       (ample/darkest-gray "#252525")
       (ample/red "#cd5542")
-      
+      (ample/dark-red "#9d2512")
+
       (ample/cursor "#f57e00")
       (ample/fringe "#1f1f1f")
       (ample/region "#303030")
@@ -223,6 +225,28 @@
    `(ac-slime-selection-face((t (:inherit ac-selection-face))))
    `(ac-yasnippet-candidate-face((t (:inherit ac-candidate-face))))
    `(ac-yasnippet-selection-face((t (:inherit ac-selection-face))))
+
+   ;; ediff
+   `(ediff-current-diff-A((t (:foreground "white" :background ,ample/dark-red))))
+   `(ediff-current-diff-B((t (:foreground "white" :background ,ample/dark-green))))
+   `(ediff-current-diff-C((t (:foreground "black" :background ,ample/yellow))))
+   ;;`(ediff-current-diff-Ancestor((t ())))
+   
+   `(ediff-even-diff-A((t (:foreground ,ample/bg :background ,ample/fg))))
+   `(ediff-even-diff-B((t (:foreground ,ample/bg :background ,ample/fg))))
+   `(ediff-even-diff-C((t (:foreground ,ample/bg :background ,ample/fg))))
+   ;;`(ediff-even-diff-Ancestor((t ())))
+   
+   `(ediff-fine-diff-A((t (:foreground "white" :background ,ample/red))))
+   `(ediff-fine-diff-B((t (:foreground "white" :background ,ample/green))))
+   `(ediff-fine-diff-C((t (:foreground "black" :background ,ample/bright-yellow))))
+   ;;`(ediff-fine-diff-Ancestor((t ())))
+   
+   `(ediff-odd-diff-A((t (:foreground ,ample/bg :background ,ample/gray))))
+   `(ediff-odd-diff-B((t (:foreground ,ample/bg :background ,ample/gray))))
+   `(ediff-odd-diff-C((t (:foreground ,ample/bg :background ,ample/gray))))
+   ;;`(ediff-odd-diff-Ancestor((t ())))
+   
    ;; man pages
    `(Man-overstrike ((t (:foreground ,ample/blue))))
    `(Man-underline ((t (:foreground ,ample/yellow))))
