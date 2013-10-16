@@ -1,4 +1,4 @@
-;;; ample-theme.el --- Calm Dark Theme for Emacs 
+;;; ample-theme.el --- Calm Dark Theme for Emacs
 ;;
 ;; Filename: ample-theme.el
 ;; Description: Calm Dark Theme for Emacs
@@ -16,7 +16,7 @@
 ;;
 ;;  The ample theme is a calm dark theme.
 ;;
-;;  Full colored term/gui support only, 256 and down support coming eventually. 
+;;  Full colored term/gui support only, 256 and down support coming eventually.
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
@@ -73,9 +73,9 @@
 
       (ample/bg "gray13")
       (ample/fg "#bdbdb3"))
-  
-  
-  
+
+
+
   ;; Set faces
   (custom-theme-set-faces
    `ample ;; you must use the same theme name here...
@@ -83,7 +83,8 @@
    `(cursor  ((t (:background ,ample/cursor))))
    `(fringe  ((t (:background ,ample/fringe))))
    `(region  ((t (:background ,ample/region))))
-   
+
+   ;; standard font lock
    `(font-lock-builtin-face ((t (:foreground ,ample/light-blue))))
    `(font-lock-comment-face ((t (:foreground ,ample/gray))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,ample/dark-gray))))
@@ -96,43 +97,47 @@
    `(font-lock-warning-face ((t (:foreground "red" :bold t))))
    `(font-lock-variable-name-face ((t (:foreground ,ample/yellow))))
    `(font-lock-doc-face ((t (:foreground ,ample/dark-tan))))
-   
+
+   ;; mode line & powerline
    `(powerline-active1 ((t (:foreground ,ample/darkest-gray))))
    `(mode-line-inactive ((t (:background ,ample/darker-gray :foreground "cornsilk4"))))
    `(mode-line ((t (:background "cornsilk4" :foreground ,ample/darkest-gray))))
-   
+
    `(linum ((t (:background nil :foreground ,ample/gray))))
-   
+
    `(header-line ((t (:background ,ample/fg :foreground ,ample/bg))))
-   
+
+   ;; search
    `(isearch ((t (:background ,ample/blue :foreground ,ample/bg))))
    `(lazy-highlight ((t (:background ,ample/bg :foreground ,ample/purple :underline t))))
 
+   ;; ace-jump
    `(ace-jump-face-background ((t (:inherit font-lock-comment-face))))
    `(ace-jump-face-foreground ((t (:foreground ,ample/orange))))
 
    `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
-   
-   `(hl-line ((t (:background "#1f1f1f"))))
 
-   `(highlight-indentation-face ((t (:background ,ample/darkest-gray))))
+   `(hl-line ((t (:background "#1f1f1f"))))
    
+   `(highlight-indentation-face ((t (:background ,ample/darkest-gray))))
+
+   ;; mini buff
    `(minibuffer-prompt ((t (:foreground ,ample/bright-yellow :bold t))))
 
    `(compilation-error ((t (:foreground ,ample/red :bold t))))
    `(compilation-warning ((t (:foreground ,ample/orange :bold t))))
    `(compilation-info ((t (:foreground ,ample/green :bold t))))
-   
+
    ;; eshell
    `(eshell-prompt ((t (:foreground ,ample/purple))))
    `(eshell-ls-directory ((t (:foreground ,ample/blue))))
    `(eshell-ls-product ((t (:foreground ,ample/orange))))
    `(eshell-ls-backup ((t (:foreground ,ample/darker-gray))))
    `(eshell-ls-executable ((t (:foreground ,ample/green))))
-   
+
    ;; shell
    `(comint-highlight-prompt ((t (:foreground ,ample/green))))
-   
+
    ;; erc
    `(erc-nick-default-face ((t (:foreground ,ample/blue))))
    `(erc-my-nick-face ((t (:foreground ,ample/yellow))))
@@ -141,24 +146,26 @@
    `(erc-input-face ((t (:foreground "white"))))
    `(erc-timestamp-face ((t (:foreground ,ample/darker-gray))))
    `(erc-prompt-face ((t (:foreground "#191919" :background ,ample/purple))))
-   
+
    ;; Magit
    `(magit-branch ((t (:foreground ,ample/orange))))
    `(magit-header ((t (:foreground ,ample/blue))))
    `(magit-section-title ((t (:foreground ,ample/blue))))
    `(magit-log-sha1 ((t (:foreground ,ample/purple))))
    `(magit-item-highlight ((t (:foreground nil :background "#162433"))))
-   
-   
+
+
    ;; error
    `(error ((t (:foreground "red"))))
-   
+
    ;; ido
    `(ido-only-match ((t (:foreground ,ample/green))))
    `(ido-first-match ((t (:foreground ,ample/blue))))
    `(ido-incomplete-regexp ((t (:foreground ,ample/red))))
    `(ido-subdir ((t (:foreground ,ample/yellow))))
 
+
+   ;; helm
    `(helm-M-x-key (( t (:foreground ,ample/orange :underline nil))))
    ;;`(helm-action (( t ())))
    ;;`(helm-bookmark-addressbook (( t ())))
@@ -198,7 +205,8 @@
    ;;`(helm-separator (( t ())))
    `(helm-source-header (( t (:foreground ,ample/darkest-gray :background ,ample/orange))))
    ;;`(helm-visible-mark (( t ())))
-   
+
+   ;; rainbow delim
    ;;(((((+ (- (* (/ ( or nil 4)  4) 9) 2) 10)))))
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,ample/rb0 :background nil))))
    `(rainbow-delimiters-depth-2-face ((t (:foreground ,ample/rb1 :background nil))))
@@ -209,8 +217,6 @@
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,ample/rb0 :background nil))))
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,ample/rb1 :background nil))))
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,ample/rb2 :background nil))))
-      
-      
 
    ;; auto complete
    `(ac-candidate-face((t (:foreground "black" :background ,ample/fg))))
@@ -250,6 +256,7 @@
    ;; man pages
    `(Man-overstrike ((t (:foreground ,ample/blue))))
    `(Man-underline ((t (:foreground ,ample/yellow))))
+   
    ;; trailing whitespace
    `(trailing-whitespace ((t (:background "white" :bold t))))))
 
@@ -259,7 +266,7 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 ;;;###autoload
-(defun ample-theme() 
+(defun ample-theme()
   "Apply the ample-theme."
   (interactive)
   (load-theme 'ample t))
