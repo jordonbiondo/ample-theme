@@ -229,6 +229,7 @@
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,ample/rb0 :background nil))))
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,ample/rb1 :background nil))))
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,ample/rb2 :background nil))))
+   `(rainbow-delimiters-unmatched-face ((t (:inherit error))))
 
    ;; auto complete
    `(ac-candidate-face((t (:foreground "black" :background ,ample/fg))))
