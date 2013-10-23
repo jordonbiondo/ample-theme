@@ -124,7 +124,7 @@
    `(highlight-indentation-face ((t (:background ,ample/darkest-gray))))
 
    ;; mini buff
-   `(minibuffer-prompt ((t (:foreground ,ample/bright-yellow :bold t))))
+   `(minibuffer-prompt ((t (:foreground ,ample/bright-yellow :bold t :background nil))))
 
    `(compilation-error ((t (:foreground ,ample/red :bold t))))
    `(compilation-warning ((t (:foreground ,ample/orange :bold t))))
