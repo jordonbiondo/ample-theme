@@ -105,6 +105,8 @@
 
    `(linum ((t (:background nil :foreground ,ample/gray))))
 
+   `(popup-tip-face ((t (:background ,ample/fg :foreground ,ample/bg))))
+
    `(header-line ((t (:background ,ample/fg :foreground ,ample/bg))))
 
    ;; search
