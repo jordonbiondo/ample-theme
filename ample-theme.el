@@ -156,6 +156,12 @@
    `(magit-log-sha1 ((t (:foreground ,ample/purple))))
    `(magit-item-highlight ((t (:foreground nil :background "#162433"))))
 
+   ;;undo-tree
+   `(undo-tree-visualizer-active-branch-face ((t (:inherit default))))
+   `(undo-tree-visualizer-default-face ((t (:inherit font-lock-comment-face))))
+   `(undo-tree-visualizer-register-face ((t (:foreground ,ample/yellow :background nil))))
+   `(undo-tree-visualizer-current-face ((t (:foreground ,ample/red :background nil))))
+   `(undo-tree-visualizer-unmodified-face ((t (:foreground ,ample/purple :background nil))))
 
    ;; error
    `(error ((t (:foreground "red"))))
