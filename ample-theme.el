@@ -120,7 +120,7 @@
    `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
 
    `(hl-line ((t (:background "#1f1f1f"))))
-   
+
    `(highlight-indentation-face ((t (:background ,ample/darkest-gray))))
 
    ;; mini buff
@@ -250,26 +250,25 @@
    `(ediff-current-diff-B((t (:foreground "white" :background ,ample/dark-green))))
    `(ediff-current-diff-C((t (:foreground "black" :background ,ample/yellow))))
    ;;`(ediff-current-diff-Ancestor((t ())))
-   
+
    `(ediff-even-diff-A((t (:foreground ,ample/bg :background ,ample/fg))))
    `(ediff-even-diff-B((t (:foreground ,ample/bg :background ,ample/fg))))
    `(ediff-even-diff-C((t (:foreground ,ample/bg :background ,ample/fg))))
    ;;`(ediff-even-diff-Ancestor((t ())))
-   
+
    `(ediff-fine-diff-A((t (:foreground "white" :background ,ample/red))))
    `(ediff-fine-diff-B((t (:foreground "white" :background ,ample/green))))
    `(ediff-fine-diff-C((t (:foreground "black" :background ,ample/bright-yellow))))
    ;;`(ediff-fine-diff-Ancestor((t ())))
-   
+
    `(ediff-odd-diff-A((t (:foreground ,ample/bg :background ,ample/gray))))
    `(ediff-odd-diff-B((t (:foreground ,ample/bg :background ,ample/gray))))
    `(ediff-odd-diff-C((t (:foreground ,ample/bg :background ,ample/gray))))
    ;;`(ediff-odd-diff-Ancestor((t ())))
-   
+
    ;; man pages
    `(Man-overstrike ((t (:foreground ,ample/blue))))
    `(Man-underline ((t (:foreground ,ample/yellow))))
-   
 
    ;; org
    ;;`(org-agenda-calendar-event ((t (:foregound nil :background nil))))
