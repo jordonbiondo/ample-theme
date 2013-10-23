@@ -163,6 +163,10 @@
    `(undo-tree-visualizer-current-face ((t (:foreground ,ample/red :background nil))))
    `(undo-tree-visualizer-unmodified-face ((t (:foreground ,ample/purple :background nil))))
 
+   ;;show paren
+   `(show-paren-match ((t (:foreground nil :background ,ample/dark-gray))))
+   `(show-paren-mismatch ((t (:inherit error))))
+
    ;; error
    `(error ((t (:foreground "red"))))
 
