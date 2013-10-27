@@ -5,9 +5,9 @@
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: 0.2.7
-;; Last-Updated: Mon Oct 14 15:51:15 2013 (-0400)
+;; Last-Updated: Sun Oct 27 12:11:08 2013 (-0400)
 ;;           By: Jordon Biondo
-;;     Update #: 17
+;;     Update #: 18
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, dark
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -148,14 +148,7 @@
    `(erc-input-face ((t (:foreground "white"))))
    `(erc-timestamp-face ((t (:foreground ,ample/darker-gray))))
    `(erc-prompt-face ((t (:foreground "#191919" :background ,ample/purple))))
-
-   ;; Magit
-   `(magit-branch ((t (:foreground ,ample/orange))))
-   `(magit-header ((t (:foreground ,ample/blue))))
-   `(magit-section-title ((t (:foreground ,ample/blue))))
-   `(magit-log-sha1 ((t (:foreground ,ample/purple))))
-   `(magit-item-highlight ((t (:foreground nil :background "#162433"))))
-
+   
    ;;undo-tree
    `(undo-tree-visualizer-active-branch-face ((t (:inherit default))))
    `(undo-tree-visualizer-default-face ((t (:inherit font-lock-comment-face))))
@@ -343,6 +336,53 @@
    ;;`(org-verse ((t (:foregound nil :background nil))))
    ;;`(org-warning ((t (:foregound nil :background nil))))
 
+   ;;magit
+   `(magit-branch  ((t (:foreground ,ample/orange :background nil))))
+   ;;`(magit-cherry-equivalent  ((t (:foreground "cyan" :background nil))))
+   ;;`(magit-cherry-unmatched  ((t (:foreground "magenta" :background nil))))
+   `(magit-diff-add  ((t (:foreground nil :background ,ample/dark-green))))
+   `(magit-diff-del  ((t (:foreground nil :background ,ample/dark-red))))
+   `(magit-diff-file-header  ((t (:foreground ,ample/bg :background ,ample/blue :bold t))))
+   `(magit-diff-hunk-header  ((t (:foreground ,ample/bg :background ,ample/blue))))
+   `(magit-diff-merge-current  ((t (:foreground ,ample/orange :background nil))))
+   `(magit-diff-merge-diff3-separator  ((t (:foreground ,ample/orange :background nil))))
+   `(magit-diff-merge-proposed  ((t (:foreground ,ample/orange :background nil))))
+   `(magit-diff-merge-separator  ((t (:foreground ,ample/orange :background nil))))
+   `(magit-diff-none  ((t (:foreground ,ample/fg :background ,ample/darker-gray))))
+   `(magit-header  ((t (:foreground ,ample/blue :background nil))))
+   `(magit-item-highlight ((t (:foreground nil :background ,ample/darker-gray))))
+   ;;`(magit-item-mark  ((t (:foreground nil :background "darkolivegreen"))))
+   ;;`(magit-key-mode-args-face  ((t (:foreground "black" :background "yellow3"))))
+   `(magit-key-mode-button-face  ((t (:foreground ,ample/light-blue :background nil))))
+   `(magit-key-mode-header-face  ((t (:foreground ,ample/blue :background nil))))
+   ;;`(magit-key-mode-switch-face  ((t (:foreground "red" :background nil :bold t))))
+   `(magit-log-author  ((t (:foreground ,ample/red :background nil))))
+   `(magit-log-author-date-cutoff  ((t (:foreground ,ample/red :background nil :bold t))))
+   `(magit-log-date  ((t (:foreground nil :background nil))))
+   `(magit-log-graph  ((t (:foreground "grey80" :background nil))))
+   ;;`(magit-log-head-label-bisect-bad  ((t (:foreground "IndianRed4" :background "IndianRed1"))))
+   ;;`(magit-log-head-label-bisect-good  ((t (:foreground "dark olive green" :background "light green"))))
+   ;;`(magit-log-head-label-default  ((t (:foreground nil :background "Grey50"))))
+   ;;`(magit-log-head-label-head  ((t (:foreground "White" :background "Grey20"))))
+   ;;`(magit-log-head-label-local  ((t (:foreground "LightSkyBlue1" :background "Grey13"))))
+   ;;`(magit-log-head-label-patches  ((t (:foreground "IndianRed4" :background "IndianRed1"))))
+   ;;`(magit-log-head-label-remote  ((t (:foreground "DarkSeaGreen2" :background "Grey11"))))
+   ;;`(magit-log-head-label-tags  ((t (:foreground "goldenrod4" :background "LemonChiffon1"))))
+   ;;`(magit-log-message  ((t (:foreground nil :background nil))))
+   ;;`(magit-log-reflog-label-amend  ((t (:foreground "goldenrod4" :background "LemonChiffon1"))))
+   ;;`(magit-log-reflog-label-checkout  ((t (:foreground "LightSkyBlue1" :background "Grey13"))))
+   ;;`(magit-log-reflog-label-cherry-pick  ((t (:foreground "dark olive green" :background "light green"))))
+   ;;`(magit-log-reflog-label-commit  ((t (:foreground "goldenrod4" :background "LemonChiffon1"))))
+   ;;`(magit-log-reflog-label-merge  ((t (:foreground "goldenrod4" :background "LemonChiffon1"))))
+   ;;`(magit-log-reflog-label-other  ((t (:foreground nil :background "Grey50"))))
+   ;;`(magit-log-reflog-label-rebase  ((t (:foreground "DarkSeaGreen2" :background "Grey11"))))
+   ;;`(magit-log-reflog-label-remote  ((t (:foreground nil :background "Grey50"))))
+   ;;`(magit-log-reflog-label-reset  ((t (:foreground "IndianRed4" :background "IndianRed1"))))
+   `(magit-log-sha1  ((t (:foreground ,ample/purple :background nil))))
+   `(magit-section-title  ((t (:foreground ,ample/blue :background nil))))
+   `(magit-tag  ((t (:foreground ,ample/blue :background nil))))
+   ;;`(magit-valid-signature  ((t (:foreground "PaleTurquoise" :background nil :bold t))))
+   `(magit-whitespace-warning-face  ((t (:foreground ,ample/bg :background "white" :bold t))))
 
    ;; trailing whitespace
    `(trailing-whitespace ((t (:background "white" :bold t))))))
