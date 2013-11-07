@@ -5,9 +5,9 @@
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: 0.2.7
-;; Last-Updated: Sun Oct 27 12:11:08 2013 (-0400)
+;; Last-Updated: Wed Nov  6 19:16:30 2013 (-0500)
 ;;           By: Jordon Biondo
-;;     Update #: 18
+;;     Update #: 19
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, dark
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -68,9 +68,7 @@
       (ample/rb3 "#959595")
       (ample/rb4 "#4170a3")
       (ample/rb5 "#757575")
-
-
-
+      
       (ample/bg "gray13")
       (ample/fg "#bdbdb3"))
 
@@ -243,6 +241,36 @@
    `(ediff-current-diff-B((t (:foreground "white" :background ,ample/dark-green))))
    `(ediff-current-diff-C((t (:foreground "black" :background ,ample/yellow))))
    ;;`(ediff-current-diff-Ancestor((t ())))
+
+   ;; w3m
+   ;;`(w3m-anchor  ((t (:foreground "cyan" :background nil))))
+   ;;`(w3m-arrived-anchor  ((t (:foreground "LightSkyBlue" :background nil))))
+   `(w3m-bold  ((t (:foreground ,ample/blue :background nil :bold t))))
+   `(w3m-current-anchor  ((t (:foreground nil :background nil :underline t :bold t))))
+   ;;`(w3m-form  ((t (:foreground "red" :background nil :underline t))))
+   ;;`(w3m-form-button  ((t (:foreground "red" :background nil :underline t))))
+   ;;`(w3m-form-button-mouse  ((t (:foreground "red" :background nil :underline t))))
+   ;;`(w3m-form-button-pressed  ((t (:foreground "red" :background nil :underline t))))
+   ;;`(w3m-form-inactive  ((t (:foreground "grey70" :background nil :underline t))))
+   ;;`(w3m-header-line-location-content  ((t (:foreground "LightGoldenrod" :background "Gray20"))))
+   ;;`(w3m-header-line-location-title  ((t (:foreground "Cyan" :background "Gray20"))))
+   ;;`(w3m-history-current-url  ((t (:foreground "LightSkyBlue" :background "SkyBlue4"))))
+   ;;`(w3m-image  ((t (:foreground "PaleGreen" :background nil))))
+   ;;`(w3m-image-anchor  ((t (:foreground nil :background "dark green"))))
+   ;;`(w3m-insert  ((t (:foreground "orchid" :background nil))))
+   `(w3m-italic  ((t (:foreground ,ample/orange :background nil :underline t))))
+   ;;`(w3m-session-select  ((t (:foreground "cyan" :background nil))))
+   ;;`(w3m-session-selected  ((t (:foreground "cyan" :background nil :underline t :bold t))))
+   ;;`(w3m-strike-through  ((t (:foreground nil :background nil))))
+   ;;`(w3m-tab-background  ((t (:foreground "black" :background "white"))))
+   ;;`(w3m-tab-mouse  ((t (:foreground nil :background nil))))
+   ;;`(w3m-tab-selected  ((t (:foreground "black" :background "cyan"))))
+   ;;`(w3m-tab-selected-background  ((t (:foreground "black" :background "white"))))
+   ;;`(w3m-tab-selected-retrieving  ((t (:foreground "red" :background "cyan"))))
+   ;;`(w3m-tab-unselected  ((t (:foreground "black" :background "blue"))))
+   ;;`(w3m-tab-unselected-retrieving  ((t (:foreground "OrangeRed" :background "blue"))))
+   ;;`(w3m-tab-unselected-unseen  ((t (:foreground "gray60" :background "blue"))))
+   `(w3m-underline  ((t (:foreground ,ample/green :background nil :underline t))))
 
    `(ediff-even-diff-A((t (:foreground ,ample/bg :background ,ample/fg))))
    `(ediff-even-diff-B((t (:foreground ,ample/bg :background ,ample/fg))))
