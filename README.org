@@ -1,12 +1,18 @@
 * ample-theme.el
   A calm, dark theme for Emacs
-  - Full colored gui support only - no terminal support yet.
+  - Full colored gui and 256 color support only for now
 ** Installation
-    If marmalade or MELPA are set up: 
-
-    (package-install 'ample-theme)
-
-    (load-theme 'ample t)
+    If Marmalade or MELPA are set up: 
+    #+BEGIN_SRC emacs-lisp
+      (package-install 'ample-theme)
+      
+      (load-theme 'ample t)
+    #+END_SRC
+** If you get ugly colors in terminal:
+#+BEGIN_SRC shell-script
+  # throw this in your ~/.bash_profile
+  export TERM="xterm-256color"
+#+END_SRC
 ** Screenshot of Emacs.app on osx
     [[http://i.imgur.com/5AYS8EA.png]]
 
