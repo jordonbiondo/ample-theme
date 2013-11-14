@@ -45,6 +45,7 @@
       (ample/dark-green "#057f10")
       (ample/blue "#5180b3")
       (ample/light-blue "#528fd1")
+      (ample/lighter-blue "#68a5e9")
       (ample/orange "#FF8512")
       (ample/tan "#bdbc61")
       (ample/dark-tan "#7d7c61")
@@ -106,6 +107,8 @@
    `(popup-tip-face ((t (:background ,ample/fg :foreground ,ample/bg))))
 
    `(header-line ((t (:background ,ample/fg :foreground ,ample/bg))))
+
+   `(button  ((t (:foreground ,ample/lighter-blue :background nil :underline t))))
 
    ;; search
    `(isearch ((t (:background ,ample/blue :foreground ,ample/bg))))
