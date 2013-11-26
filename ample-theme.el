@@ -5,9 +5,9 @@
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: 0.2.7
-;; Last-Updated: Wed Nov  6 19:16:30 2013 (-0500)
+;; Last-Updated: Tue Nov 26 01:03:24 2013 (-0500)
 ;;           By: Jordon Biondo
-;;     Update #: 19
+;;     Update #: 20
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, dark
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -211,6 +211,28 @@
    ;;`(helm-separator (( t ())))
    `(helm-source-header (( t (:foreground ,ample/darkest-gray :background ,ample/orange))))
    ;;`(helm-visible-mark (( t ())))
+
+   ;; jabber
+   `(jabber-activity-face  ((t (:inherit font-lock-variable-name-face :bold t))))
+   `(jabber-activity-personal-face  ((t (:inherit font-lock-function-name-face :bold t))))
+   `(jabber-chat-error  ((t (:inherit error :bold t))))
+   ;; `(jabber-chat-prompt-foreign  ((t (:foreground "red" :background nil :bold t)))) 
+   ;;`(jabber-chat-prompt-local  ((t (:foreground "blue" :background nil :bold t))))
+   ;;`(jabber-chat-prompt-system  ((t (:foreground "green" :background nil :bold t))))
+   `(jabber-chat-text-foreign  ((t (:inherit font-lock-function-name-face))))
+   `(jabber-chat-text-local  ((t (:inherit font-lock-keyword-face))))
+   ;;`(jabber-rare-time-face  ((t (:foreground "darkgreen" :background nil :underline t))))
+   `(jabber-roster-user-away  ((t (:inherit font-lock-string-face))))
+   `(jabber-roster-user-chatty  ((t (:foreground ,ample/orange :background nil :bold t))))
+   ;;`(jabber-roster-user-dnd  ((t (:foreground "red" :background nil))))
+   `(jabber-roster-user-error  ((t (:inherit error))))
+   `(jabber-roster-user-offline  ((t (:inherit font-lock-comment-face))))
+   `(jabber-roster-user-online  ((t (:inherit font-lock-keyword-face :bold t))))
+   `(jabber-roster-user-xa  ((t (:inherit font-lock-doc-face))))
+   ;;`(jabber-title-large  ((t (:foreground nil :background nil :bold t))))
+   ;;`(jabber-title-medium  ((t (:foreground nil :background nil :bold t))))
+   ;;`(jabber-title-small  ((t (:foreground nil :background nil :bold t))))
+
 
    ;; rainbow delim
    ;;(((((+ (- (* (/ ( or nil 4)  4) 9) 2) 10)))))
