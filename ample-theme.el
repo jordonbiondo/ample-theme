@@ -79,7 +79,7 @@
   (custom-theme-set-faces
    `ample ;; you must use the same theme name here...
    `(default ((t (:foreground ,ample/fg :background ,ample/bg))))
-   `(cursor  ((t (:background ,ample/cursor))))
+   `(cursor  ((t (:foreground ,ample/bg :background ,ample/cursor))))
    `(fringe  ((t (:background ,ample/fringe))))
    `(region  ((t (:background ,ample/region))))
 
