@@ -42,7 +42,7 @@
 
 ;; Not a bad idea to define a palette...
 (let ((ample/green "#6aaf50")
-      (ample/dark-green "#057f10")
+      (ample/dark-green "#057f40")
       (ample/blue "#5180b3")
       (ample/light-blue "#528fd1")
       (ample/lighter-blue "#68a5e9")
