@@ -5,9 +5,9 @@
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: 0.2.7
-;; Last-Updated: Mon Dec  9 00:15:27 2013 (-0500)
-;;           By: Jordon Biondo
-;;     Update #: 22
+;; Last-Updated: Mon Feb 10 08:48:11 2014 (-0500)
+;;           By: jordon.biondo
+;;     Update #: 23
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, dark
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
