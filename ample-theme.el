@@ -14,9 +14,10 @@
 ;;
 ;;; Commentary:
 ;;
-;;  The ample theme is a calm dark theme.
+;;  Ample-theme is a calm dark theme with a focus on being easy on the eyes
+;;  during night and day. 
 ;;
-;;  Full colored term/gui support only, 256 and down support coming eventually.
+;;  Terminals with 256 colors and up will display this theme correctly.
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
