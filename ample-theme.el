@@ -5,9 +5,9 @@
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: 0.2.7
-;; Last-Updated: Mon Feb 10 08:48:11 2014 (-0500)
+;; Last-Updated: Mon Feb 10 11:44:19 2014 (-0500)
 ;;           By: jordon.biondo
-;;     Update #: 23
+;;     Update #: 24
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, dark
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -69,7 +69,7 @@
       (ample/rb3 "#959595")
       (ample/rb4 "#4170a3")
       (ample/rb5 "#757575")
-      
+
       (ample/bg "gray13")
       (ample/fg "#bdbdb3"))
 
@@ -149,7 +149,7 @@
    `(erc-input-face ((t (:foreground "white"))))
    `(erc-timestamp-face ((t (:foreground ,ample/darker-gray))))
    `(erc-prompt-face ((t (:foreground "#191919" :background ,ample/purple))))
-   
+
    ;;undo-tree
    `(undo-tree-visualizer-active-branch-face ((t (:inherit default))))
    `(undo-tree-visualizer-default-face ((t (:inherit font-lock-comment-face))))
@@ -182,8 +182,8 @@
    ;; `(js2-private-function-call  ((t (:foreground "goldenrod" :background nil))))
    `(js2-private-member  ((t (:foreground "PeachPuff3" :background nil))))
    `(js2-warning  ((t (:foreground nil :background nil :underline ,ample/orange))))
-   
-   
+
+
    ;; helm
    `(helm-M-x-key (( t (:foreground ,ample/orange :underline nil))))
    ;;`(helm-action (( t ())))
@@ -229,7 +229,7 @@
    `(jabber-activity-face  ((t (:inherit font-lock-variable-name-face :bold t))))
    `(jabber-activity-personal-face  ((t (:inherit font-lock-function-name-face :bold t))))
    `(jabber-chat-error  ((t (:inherit error :bold t))))
-   ;; `(jabber-chat-prompt-foreign  ((t (:foreground "red" :background nil :bold t)))) 
+   ;; `(jabber-chat-prompt-foreign  ((t (:foreground "red" :background nil :bold t))))
    ;;`(jabber-chat-prompt-local  ((t (:foreground "blue" :background nil :bold t))))
    ;;`(jabber-chat-prompt-system  ((t (:foreground "green" :background nil :bold t))))
    `(jabber-chat-text-foreign  ((t (:inherit font-lock-function-name-face))))
@@ -401,9 +401,11 @@
    ;;`(org-verbatim ((t (:foregound nil :background nil))))
    ;;`(org-verse ((t (:foregound nil :background nil))))
    ;;`(org-warning ((t (:foregound nil :background nil))))
+
+
    ;; message-mode
-   `(message-cited-text  ((t (:inherit font-lock-comment-face)))) 
-   `(message-header-cc  ((t (:foreground ,ample/light-blue :background nil :bold t)))) 
+   `(message-cited-text  ((t (:inherit font-lock-comment-face))))
+   `(message-header-cc  ((t (:foreground ,ample/light-blue :background nil :bold t))))
    `(message-header-name  ((t (:foreground ,ample/orange :background nil))))
    `(message-header-newsgroups  ((t (:foreground ,ample/dark-tan :background nil :bold t))))
    `(message-header-other  ((t (:foreground ,ample/blue :background nil))))
@@ -412,7 +414,7 @@
    `(message-header-xheader  ((t (:foreground ,ample/purple :background nil))))
    `(message-mml  ((t (:foreground ,ample/dark-tan :background nil))))
 
-   ;; gnus 
+   ;; gnus
    `(gnus-button				((t (:foreground nil :background nil :bold t))))
    `(gnus-cite-1				((t (:foreground "light blue" :background nil))))
    `(gnus-cite-10				((t (:foreground "plum1" :background nil))))
@@ -487,7 +489,7 @@
    `(gnus-summary-normal-unread			((t (:foreground ,ample/light-blue :background nil))))
    `(gnus-summary-selected			((t (:foreground nil :background nil :underline t))))
 
-   
+
    ;;magit
    `(magit-branch  ((t (:foreground ,ample/orange :background nil))))
    ;;`(magit-cherry-equivalent  ((t (:foreground "cyan" :background nil))))
