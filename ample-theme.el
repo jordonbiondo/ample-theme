@@ -401,7 +401,17 @@
    ;;`(org-verbatim ((t (:foregound nil :background nil))))
    ;;`(org-verse ((t (:foregound nil :background nil))))
    ;;`(org-warning ((t (:foregound nil :background nil))))
-
+   ;; message-mode
+   `(message-cited-text  ((t (:inherit font-lock-comment-face)))) 
+   `(message-header-cc  ((t (:foreground ,ample/light-blue :background nil :bold t)))) 
+   `(message-header-name  ((t (:foreground ,ample/orange :background nil))))
+   `(message-header-newsgroups  ((t (:foreground ,ample/dark-tan :background nil :bold t))))
+   `(message-header-other  ((t (:foreground ,ample/blue :background nil))))
+   `(message-header-subject  ((t (:foreground ,ample/tan :background nil))))
+   `(message-header-to  ((t (:foreground ,ample/yellow :background nil :bold t))))
+   `(message-header-xheader  ((t (:foreground ,ample/purple :background nil))))
+   `(message-mml  ((t (:foreground ,ample/dark-green :background nil))))
+   
    ;;magit
    `(magit-branch  ((t (:foreground ,ample/orange :background nil))))
    ;;`(magit-cherry-equivalent  ((t (:foreground "cyan" :background nil))))
