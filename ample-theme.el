@@ -173,17 +173,17 @@
    `(ido-subdir			((t (:foreground ,ample/yellow))))
 
    ;;js2
-   `(js2-external-variable  ((t (:foreground ,ample/orange :background nil))))
-   `(js2-function-param  ((t (:foreground ,ample/dark-green :background nil))))
-   `(js2-instance-member  ((t (:foreground ,ample/purple :background nil))))
-   ;; `(js2-jsdoc-html-tag-delimiter  ((t (:foreground "green" :background nil))))
-   ;; `(js2-jsdoc-html-tag-name  ((t (:foreground "yellow" :background nil))))
-   ;; `(js2-jsdoc-tag  ((t (:foreground "SlateGray" :background nil))))
-   ;; `(js2-jsdoc-type  ((t (:foreground "SteelBlue" :background nil))))
-   ;; `(js2-jsdoc-value  ((t (:foreground "PeachPuff3" :background nil))))
-   ;; `(js2-private-function-call  ((t (:foreground "goldenrod" :background nil))))
-   `(js2-private-member  ((t (:foreground "PeachPuff3" :background nil))))
-   `(js2-warning  ((t (:foreground nil :background nil :underline ,ample/orange))))
+   `(js2-external-variable		((t (:foreground ,ample/orange :background nil))))
+   `(js2-function-param			((t (:foreground ,ample/dark-green :background nil))))
+   `(js2-instance-member		((t (:foreground ,ample/purple :background nil))))
+   `(js2-jsdoc-html-tag-delimiter	((t (:foreground ,ample/dark-gray :background nil))))
+   `(js2-jsdoc-html-tag-name		((t (:foreground ,ample/darkest-gray :background nil))))
+   `(js2-jsdoc-tag			((t (:foreground ,ample/dark-red :background nil))))
+   `(js2-jsdoc-type			((t (:foreground ,ample/red :background nil))))
+   `(js2-jsdoc-value			((t (:foreground ,ample/tan :background nil))))
+   `(js2-private-function-call		((t (:foreground ,ample/dark-green :background nil))))
+   `(js2-private-member			((t (:foreground ,ample/dark-tan :background nil))))
+   `(js2-warning			((t (:foreground nil :background nil :underline ,ample/orange))))
 
 
    ;; helm
