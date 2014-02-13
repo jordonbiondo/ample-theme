@@ -492,6 +492,17 @@
    `(gnus-summary-normal-unread			((t (:foreground ,ample/light-blue :background nil))))
    `(gnus-summary-selected			((t (:foreground nil :background nil :underline t))))
 
+   ;; whitespace mode
+   `(whitespace-empty			((t (:foreground ,ample/gray :background "gray10"))))
+   `(whitespace-hspace			((t (:foreground ,ample/gray :background "grey11"))))
+   `(whitespace-indentation		((t (:foreground ,ample/gray :background "gray12"))))
+   `(whitespace-line			((t (:foreground ,ample/purple :background nil))))
+   `(whitespace-newline			((t (:foreground ,ample/gray :background nil))))
+   `(whitespace-space			((t (:foreground ,ample/gray :background nil))))
+   `(whitespace-space-after-tab		((t (:foreground ,ample/gray :background "gray13"))))
+   `(whitespace-space-before-tab	((t (:foreground ,ample/gray :background "gray14"))))
+   `(whitespace-tab			((t (:foreground ,ample/gray :background "grey15"))))
+   `(whitespace-trailing		((t (:foreground ,ample/rb3 :background ,ample/bg :bold t))))
 
    ;;magit
    `(magit-branch				((t (:foreground ,ample/orange :background nil))))
