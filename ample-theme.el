@@ -5,9 +5,9 @@
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: 0.2.7
-;; Last-Updated: Mon Feb 10 11:44:19 2014 (-0500)
+;; Last-Updated: Thu Feb 13 09:00:13 2014 (-0500)
 ;;           By: jordon.biondo
-;;     Update #: 24
+;;     Update #: 25
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, dark
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -15,7 +15,7 @@
 ;;; Commentary:
 ;;
 ;;  Ample-theme is a calm dark theme with a focus on being easy on the eyes
-;;  during night and day. 
+;;  during night and day.
 ;;
 ;;  Terminals with 256 colors and up will display this theme correctly.
 ;;
@@ -76,6 +76,7 @@
 
 
 
+
   ;; Set faces
   (custom-theme-set-faces
    `ample ;; you must use the same theme name here...
@@ -128,7 +129,7 @@
    ;; mini buff
    `(minibuffer-prompt ((t (:foreground ,ample/bright-yellow :bold t :background nil))))
 
-   
+
    `(compilation-error		((t (:foreground ,ample/red :bold t))))
    `(compilation-warning	((t (:foreground ,ample/orange :bold t))))
    `(compilation-info		((t (:foreground ,ample/green :bold t))))
@@ -275,7 +276,7 @@
    `(ac-yasnippet-candidate-face	((t (:inherit ac-candidate-face))))
    `(ac-yasnippet-selection-face	((t (:inherit ac-selection-face))))
 
-   
+
 
    ;; w3m
    ;;`(w3m-anchor			((t (:foreground "cyan" :background nil))))
@@ -307,7 +308,7 @@
    ;;`(w3m-tab-unselected-unseen	((t (:foreground "gray60" :background "blue"))))
    `(w3m-underline			((t (:foreground ,ample/green :background nil :underline t))))
 
-   
+
    ;; ediff
    `(ediff-current-diff-A((t (:foreground nil :background "#482828"))))
    `(ediff-current-diff-B((t (:foreground nil :background "#284828"))))
