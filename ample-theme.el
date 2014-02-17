@@ -493,6 +493,11 @@
    `(gnus-summary-normal-unread			((t (:foreground ,ample/light-blue :background nil))))
    `(gnus-summary-selected			((t (:foreground nil :background nil :underline t))))
 
+   `(twittering-timeline-footer-face	((t (:foreground nil :background nil :inherit font-lock-function-name-face))))
+   `(twittering-timeline-header-face	((t (:foreground nil :background nil :inherit font-lock-function-name-face))))
+   `(twittering-uri-face		((t (:foreground nil :background nil :underline t))))
+   `(twittering-username-face		((t (:foreground nil :background nil :inherit font-lock-keyword-face :underline t))))
+
    ;; whitespace mode
    `(whitespace-empty			((t (:foreground ,ample/gray :background "gray10"))))
    `(whitespace-hspace			((t (:foreground ,ample/gray :background "grey11"))))
