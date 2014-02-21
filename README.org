@@ -1,5 +1,5 @@
 * ample-theme.el
-  A calm, dark theme for Emacs
+  - A Light and Dark pair of themes for Emacs.
   - Full colored gui and 256 color support only for now
 ** Installation
     If Marmalade or MELPA are set up: 
@@ -13,8 +13,14 @@
   # throw this in your ~/.bash_profile
   export TERM="xterm-256color"
 #+END_SRC
-** Screenshot of Emacs.app on osx
+** Ample-theme in Emacs.app on osx
     [[http://i.imgur.com/5AYS8EA.png]]
 
-** Screenshot inside Terminal.app on osx
+** Ample-theme in Terminal.app on osx
    [[http://i.imgur.com/p15i1QM.png]]
+
+** Ample-light-theme on the latest Windows build:
+   [[http://i.imgur.com/kEpzllk.png]]
+
+** Ample-light-theme vs Ample-theme
+    [[http://i.imgur.com/86VLSV9.png]]
