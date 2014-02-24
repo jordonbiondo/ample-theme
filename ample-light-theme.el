@@ -333,6 +333,17 @@
    `(ac-yasnippet-candidate-face	((t (:inherit ac-candidate-face))))
    `(ac-yasnippet-selection-face	((t (:inherit ac-selection-face))))
 
+   ;;`(company-echo                        ((t (:foreground nil :background nil))))
+   ;;`(company-echo-common              ((t (:foreground nil :background "firebrick4"))))
+   ;;`(company-preview                  ((t (:foreground "wheat" :background "blue4"))))
+   `(company-preview-common             ((t (:inherit font-lock-comment-face))))
+   ;;`(company-preview-search           ((t (:foreground "wheat" :background "blue1"))))
+   ;;`(company-template-field           ((t (:foreground "black" :background "orange"))))
+   `(company-tooltip                    ((t (:foreground ,ample/bg :background ,ample/region-dark))))
+   `(company-tooltip-common             ((t (:foreground ,ample/light-blue :background ,ample/region-dark))))
+   `(company-tooltip-common-selection   ((t (:foreground ,ample/bg :background ,ample/region))))
+   `(company-tooltip-mouse              ((t (:foreground nil :background ,ample/light-red-bg))))
+   `(company-tooltip-selection          ((t (:foreground ,ample/fg :background ,ample/region))))
 
 
    ;; w3m
