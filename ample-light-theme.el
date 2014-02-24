@@ -5,16 +5,16 @@
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: 0.2.7
-;; Last-Updated: Mon Feb 17 10:05:16 2014 (-0500)
+;; Last-Updated: Mon Feb 24 14:29:23 2014 (-0500)
 ;;           By: jordon.biondo
-;;     Update #: 28
+;;     Update #: 30
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, light, ample
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;;; Commentary:
 ;;
-;;  Ample-theme is a calm light theme with a focus on being easy on the eyes
+;;  Ample-light-theme is a calm light theme with a focus on being easy on the eyes
 ;;  during night and day.
 ;;
 ;;  Terminals with 256 colors and up will display this theme correctly.
@@ -66,6 +66,7 @@
 
        (ample/cursor "#F57E00")
        (ample/fringe "#CBC9B1")
+       
        (ample/region "#BBB9A1")
        (ample/region-dark "#ABA991")
        (ample/region-light "#E2E0C1")
