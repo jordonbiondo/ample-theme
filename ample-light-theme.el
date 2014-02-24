@@ -68,6 +68,7 @@
        (ample/fringe "#CBC9B1")
        (ample/region "#BBB9A1")
        (ample/region-dark "#ABA991")
+       (ample/region-light "#E2E0C1")
        
        (ample/rb0 "#81B0E3")
        (ample/rb1 "#A5A5A5")
@@ -126,7 +127,7 @@
 
    `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
 
-   `(hl-line ((t (:background "#1f1f1f"))))
+   `(hl-line ((t (:background ,ample/region-light))))
 
    `(highlight-indentation-face ((t (:background ,ample/darkest-gray))))
 
