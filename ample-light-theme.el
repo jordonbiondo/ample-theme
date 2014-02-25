@@ -277,12 +277,12 @@
    ;;`(helm-history-remote		((t ())))
    ;;`(helm-lisp-completion-info	((t ())))
    ;;`(helm-lisp-show-completion	((t ())))
-   `(helm-match				((t (:foreground ,ample/blue :background ,ample/darkest-gray))))
+   `(helm-match				((t (:foreground ,ample/fg :background ,ample/light-green-bg))))
    ;;`(helm-moccur-buffer		((t ())))
-   `(helm-selection			((t (:foreground ,ample/yellow :background nil :bold t))))
+   `(helm-selection			((t (:foreground ,ample/red :background ,ample/light-green-bg :bold t))))
    ;;`(helm-selection-line		((t ())))
    ;;`(helm-separator			((t ())))
-   `(helm-source-header			((t (:foreground ,ample/darkest-gray :background ,ample/orange))))
+   `(helm-source-header			((t (:foreground ,ample/darkest-gray :background ,ample/region-dark))))
    ;;`(helm-visible-mark		((t ())))
 
    ;; jabber

@@ -274,10 +274,10 @@
    ;;`(helm-lisp-show-completion	((t ())))
    `(helm-match				((t (:foreground ,ample/blue :background ,ample/darkest-gray))))
    ;;`(helm-moccur-buffer		((t ())))
-   `(helm-selection			((t (:foreground ,ample/yellow :background nil :bold t))))
+   `(helm-selection			((t (:foreground ,ample/yellow :background ,ample/region :bold t))))
    ;;`(helm-selection-line		((t ())))
    ;;`(helm-separator			((t ())))
-   `(helm-source-header			((t (:foreground ,ample/darkest-gray :background ,ample/orange))))
+   `(helm-source-header			((t (:foreground ,ample/darkest-gray :background ,ample/blue))))
    ;;`(helm-visible-mark		((t ())))
 
    ;; jabber
