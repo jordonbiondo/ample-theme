@@ -443,7 +443,7 @@
    ;;`(org-footnote ((t (:foreground nil :background nil))))
    ;;`(org-formula ((t (:foreground nil :background nil))))
    ;;`(org-headline-done ((t (:foreground nil :background nil))))
-   ;;`(org-hide ((t (:foreground nil :background nil))))
+   `(org-hide ((t (:foreground ,ample/bg :background nil))))
    ;;`(org-latex-and-export-specials ((t (:foreground nil :background nil))))
    ;;`(org-level-1 ((t (:foreground nil :background nil))))
    ;;`(org-level-2 ((t (:foreground nil :background nil))))
