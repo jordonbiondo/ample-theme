@@ -2,7 +2,7 @@
   - A Light and Dark pair of themes for Emacs.
   - Full colored gui and 256 color support only for now
 ** Installation
-    If Marmalade or MELPA are set up: 
+    If MELPA is set up: 
     #+BEGIN_SRC emacs-lisp
       (package-install 'ample-theme)
       
