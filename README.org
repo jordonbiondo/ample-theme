@@ -13,6 +13,9 @@
   # throw this in your ~/.bash_profile
   export TERM="xterm-256color"
 #+END_SRC
+** Ample-light-theme vs Ample-theme
+    [[http://i.imgur.com/86VLSV9.png]]
+
 ** Ample-theme in Emacs.app on osx
     [[http://i.imgur.com/5AYS8EA.png]]
 
@@ -22,5 +25,3 @@
 ** Ample-light-theme on the latest Windows build:
    [[http://i.imgur.com/kEpzllk.png]]
 
-** Ample-light-theme vs Ample-theme
-    [[http://i.imgur.com/86VLSV9.png]]
