@@ -172,6 +172,8 @@
    `(ido-first-match		((t (:foreground ,ample/blue))))
    `(ido-incomplete-regexp	((t (:foreground ,ample/red))))
    `(ido-subdir			((t (:foreground ,ample/yellow))))
+   ;; flx-ido
+   `(flx-highlight-face         ((t (:foreground ,ample/lighter-blue :background nil :underline nil :bold t))))
 
    ;;js2
    `(js2-external-variable		((t (:foreground ,ample/orange :background nil))))
