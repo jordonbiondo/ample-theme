@@ -623,6 +623,12 @@
    ;;`(magit-valid-signature			((t (:foreground "PaleTurquoise" :background nil :bold t))))
    `(magit-whitespace-warning-face		((t (:foreground ,ample/bg :background "white" :bold t))))
 
+   `(git-gutter:added     ((t (:foreground ,ample/green :background nil :bold t))))
+   `(git-gutter:deleted   ((t (:foreground ,ample/red :background nil :bold t))))
+   `(git-gutter:modified  ((t (:foreground ,ample/purple :background nil :bold t))))
+   `(git-gutter:separator ((t (:foreground ,ample/orange :background nil :bold t))))
+   `(git-gutter:unchanged ((t (:foreground ,ample/yellow :background nil))))
+
    ;; trailing whitespace
    `(trailing-whitespace ((t (:background "white" :bold t))))))
 
