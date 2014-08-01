@@ -626,8 +626,21 @@
    ;;`(magit-valid-signature			((t (:foreground "PaleTurquoise" :background nil :bold t))))
    `(magit-whitespace-warning-face		((t (:foreground ,ample/bg :background "white" :bold t))))
 
+   `(git-gutter:deleted   ((t (:foreground ,ample/red :background nil :bold t))))
+   `(git-gutter:modified  ((t (:foreground ,ample/purple :background nil :bold t))))
+   `(git-gutter:separator ((t (:foreground ,ample/orange :background nil :bold t))))
+   `(git-gutter:unchanged ((t (:foreground ,ample/dark-tan :background nil))))
+
+   `(highlight-indentation-current-column-face ((t (:foreground nil :background ,ample/region-light))))
+   `(highlight-indentation-face                ((t (:foreground nil :background ,ample/region-dark))))
+
    ;; trailing whitespace
-   `(trailing-whitespace ((t (:background "white" :bold t))))))
+   `(trailing-whitespace ((t (:background "white" :bold t)))))
+
+  (custom-theme-set-variables
+   'ample
+   `(ansi-color-names-vector
+     [,ample/darker-gray ,ample/red ,ample/green ,ample/dark-tan ,ample/blue ,ample/purple ,ample/tan ,ample/fg])))
 
 ;;;###autoload
 (when load-file-name

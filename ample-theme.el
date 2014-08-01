@@ -45,6 +45,7 @@
 (let ((ample/green "#6aaf50")
       (ample/dark-green "#057f40")
       (ample/blue "#5180b3")
+      (ample/blue-bg "#102843")
       (ample/light-blue "#528fd1")
       (ample/lighter-blue "#68a5e9")
       (ample/orange "#FF8512")
@@ -623,14 +624,21 @@
    ;;`(magit-valid-signature			((t (:foreground "PaleTurquoise" :background nil :bold t))))
    `(magit-whitespace-warning-face		((t (:foreground ,ample/bg :background "white" :bold t))))
 
-   `(git-gutter:added     ((t (:foreground ,ample/green :background nil :bold t))))
    `(git-gutter:deleted   ((t (:foreground ,ample/red :background nil :bold t))))
    `(git-gutter:modified  ((t (:foreground ,ample/purple :background nil :bold t))))
    `(git-gutter:separator ((t (:foreground ,ample/orange :background nil :bold t))))
    `(git-gutter:unchanged ((t (:foreground ,ample/yellow :background nil))))
 
+   `(highlight-indentation-current-column-face ((t (:foreground nil :background ,ample/gray)))) 
+   `(highlight-indentation-face                ((t (:foreground nil :background ,ample/darkest-gray))))
+
    ;; trailing whitespace
-   `(trailing-whitespace ((t (:background "white" :bold t))))))
+   `(trailing-whitespace ((t (:background "white" :bold t)))))
+
+  (custom-theme-set-variables
+   'ample
+   `(ansi-color-names-vector
+     [,ample/darker-gray ,ample/red ,ample/green ,ample/yellow ,ample/blue ,ample/purple ,ample/tan ,ample/fg])))
 
 ;;;###autoload
 (when load-file-name
