@@ -337,6 +337,8 @@
    `(company-preview-common		((t (:inherit font-lock-comment-face))))
    ;;`(company-preview-search		((t (:foreground "wheat" :background "blue1"))))
    ;;`(company-template-field		((t (:foreground "black" :background "orange"))))
+   `(company-scrollbar-bg               ((t (:foreground nil :background ,ample/darkest-gray))))
+   `(company-scrollbar-fg               ((t (:foreground nil :background ,ample/dark-gray))))
    `(company-tooltip			((t (:foreground ,ample/bg :background ,ample/fg))))
    `(company-tooltip-common		((t (:foreground ,ample/blue :background ,ample/fg))))
    `(company-tooltip-common-selection	((t (:foreground ,ample/bg :background ,ample/blue))))

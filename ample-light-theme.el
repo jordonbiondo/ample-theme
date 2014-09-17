@@ -339,11 +339,14 @@
    `(company-preview-common             ((t (:inherit font-lock-comment-face))))
    ;;`(company-preview-search           ((t (:foreground "wheat" :background "blue1"))))
    ;;`(company-template-field           ((t (:foreground "black" :background "orange"))))
+   `(company-scrollbar-bg               ((t (:foreground nil :background ,ample/fg))))
+   `(company-scrollbar-fg               ((t (:foreground nil :background ,ample/dark-gray))))
    `(company-tooltip                    ((t (:foreground ,ample/bg :background ,ample/region-dark))))
    `(company-tooltip-common             ((t (:foreground ,ample/light-blue :background ,ample/region-dark))))
    `(company-tooltip-common-selection   ((t (:foreground ,ample/bg :background ,ample/region))))
    `(company-tooltip-mouse              ((t (:foreground nil :background ,ample/light-red-bg))))
-   `(company-tooltip-selection          ((t (:foreground ,ample/fg :background ,ample/region))))
+   `(company-tooltip-selection          ((t (:foreground ,ample/fg :background ,ample/region-dark))))
+   `(company-tooltip-annotation         ((t (:foreground ,ample/red :background ,ample/region-dark))))
 
 
    ;; w3m
