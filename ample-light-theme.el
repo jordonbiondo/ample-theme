@@ -4,10 +4,10 @@
 ;; Description: Calm light Theme for Emacs
 ;; Author: Jordon Biondo <jordonbiondo@gmail.com>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
-;; Version: 0.2.7
-;; Last-Updated: Mon Feb 24 14:33:33 2014 (-0500)
-;;           By: jordon.biondo
-;;     Update #: 31
+;; Version: 0.3.0
+;; Last-Updated: Fri Oct 31 09:55:35 2014 (-0400)
+;;           By: Jordon Biondo
+;;     Update #: 32
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, light, ample
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
