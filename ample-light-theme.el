@@ -65,22 +65,22 @@
 
        (ample/cursor "#F57E00")
        (ample/fringe "#CBC9B1")
-       
+
        (ample/region "#BBB9A1")
        (ample/region-dark "#ABA991")
-       (ample/region-light "#E2E0C1")
+       (ample/region-light "#d2d0b1")
        
-       (ample/rb0 "#81B0E3")
-       (ample/rb1 "#A5A5A5")
-       (ample/rb2 "#6190C3")
-       (ample/rb3 "#959595")
-       (ample/rb4 "#4170A3")
-       (ample/rb5 "#757575")
-       
-       (ample/bg "#DBD9C1")
+       (ample/rb0 "#215083")
+       (ample/rb1 "#555555")
+       (ample/rb2 "#515003")
+       (ample/rb3 "#555555")
+       (ample/rb4 "#215083")
+       (ample/rb5 "#515003")
+
+       (ample/bg "#cBc9b1")
        (ample/fg "gray43"))
-  
-  
+
+
 
   ;; Set faces
   (custom-theme-set-faces
@@ -243,7 +243,7 @@
    `(web-mode-variable-name-face                ((t (:inherit font-lock-variable-name-face))))
    `(web-mode-warning-face                      ((t (:inherit font-lock-warning-face))))
    `(web-mode-whitespace-face                   ((t (:foreground nil :background "DarkOrchid4"))))
-   
+
    ;; helm
    `(helm-M-x-key			((t (:foreground ,ample/orange :underline nil))))
    ;;`(helm-action			((t ())))
@@ -488,7 +488,7 @@
    ;;`(org-table ((t (:foreground nil :background nil))))
    ;;`(org-tag ((t (:foreground nil :background nil))))
    ;;`(org-target ((t (:foreground nil :background nil))))
-   ;;`(org-time-grid ((t (:foreground nil :background nil))))   
+   ;;`(org-time-grid ((t (:foreground nil :background nil))))
    ;;`(org-upcoming-deadline ((t (:foreground nil :background nil))))
    ;;`(org-verbatim ((t (:foreground nil :background nil))))
    ;;`(org-verse ((t (:foreground nil :background nil))))
