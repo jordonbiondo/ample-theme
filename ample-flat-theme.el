@@ -1,18 +1,21 @@
 ;;; ample-flat-theme.el --- Flat version of ample
 ;;
 ;; Filename: ample-flat-theme.el
-;; Description: Flat Dark Theme for Emacs
+;; Description: Flat version of the ample themes.
 ;; Author: Jordon Biondo <jordonbiondo@gmail.com>
 ;; Created: Mon Oct 06 2014
 ;; Version: 0.3.0
-;; Last-Updated: Fri Oct 31 09:55:18 2014 (-0400)
+;; Last-Updated: Mon Nov  3 11:16:23 2014 (-0500)
 ;;           By: Jordon Biondo
-;;     Update #: 30
+;;     Update #: 31
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, dark
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;;; Commentary:
+;;
+;;  ample-flat-theme is part of the ample themes, a collection of 3 themes
+;;  sharing a similar pallet with a light, dark, and flat version.
 ;;
 ;;  Ample-flat-theme is a flat dark theme with a focus on being easy on the eyes
 ;;  during night and day, basically a desaturated version of ample-theme.

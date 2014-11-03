@@ -1,18 +1,21 @@
 ;;; ample-light-theme.el --- Calm Light Theme for Emacs
 ;;
 ;; Filename: ample-light-theme.el
-;; Description: Calm light Theme for Emacs
+;; Description: Light version of the ample themes.
 ;; Author: Jordon Biondo <jordonbiondo@gmail.com>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: 0.3.0
-;; Last-Updated: Fri Oct 31 09:55:35 2014 (-0400)
+;; Last-Updated: Mon Nov  3 11:16:30 2014 (-0500)
 ;;           By: Jordon Biondo
-;;     Update #: 32
+;;     Update #: 33
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, light, ample
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;;; Commentary:
+;;
+;;  ample-light-theme is part of the ample themes, a collection of 3 themes
+;;  sharing a similar pallet with a light, dark, and flat version.
 ;;
 ;;  Ample-light-theme is a calm light theme with a focus on being easy on the eyes
 ;;  during night and day.
