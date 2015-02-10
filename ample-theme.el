@@ -61,7 +61,7 @@
       (ample/dark-gray "#656565")
       (ample/darker-gray "#454545")
       (ample/darkest-gray "#252525")
-      (ample/red "#cd7542")
+      (ample/red "#cd5542")
       (ample/dark-red "#9d2512")
 
       (ample/cursor "#f57e00")
