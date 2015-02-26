@@ -1,4 +1,5 @@
 * Ample Themes
+  [[http://melpa.org/#/ample-theme][file:http://melpa.org/packages/ample-theme-badge.svg]]
   - A Triplet of themey goodness.
   - Full colored gui and modern 256 color terminal support only.
 ** Installation
