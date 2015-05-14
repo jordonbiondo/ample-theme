@@ -119,10 +119,16 @@
    ;; search
    `(isearch		((t (:background ,ample/blue :foreground ,ample/bg))))
    `(lazy-highlight	((t (:background ,ample/bg :foreground ,ample/purple :underline t))))
+   `(evil-search-highlight-persist-highlight-face ((t (:background ,ample/blue :foreground ,ample/bg))))
 
    ;; ace-jump
    `(ace-jump-face-background ((t (:inherit font-lock-comment-face))))
    `(ace-jump-face-foreground ((t (:foreground ,ample/orange))))
+
+   `(avy-background-face  ((t (:foreground ,ample/dark-gray :background nil))))
+   `(avy-lead-face  ((t (:foreground ,ample/fg :background ,ample/dark-red))))
+   `(avy-lead-face-0  ((t (:foreground ,ample/fg :background ,ample/blue))))
+   `(avy-lead-face-1  ((t (:foreground ,ample/bg :background ,ample/fg))))
 
    `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
 

@@ -122,6 +122,12 @@
    `(ace-jump-face-background ((t (:inherit font-lock-comment-face))))
    `(ace-jump-face-foreground ((t (:foreground ,ample/orange))))
 
+
+   `(avy-background-face  ((t (:foreground ,ample/dark-gray :background nil))))
+   `(avy-lead-face  ((t (:foreground "white" :background ,ample/red))))
+   `(avy-lead-face-0  ((t (:foreground "white" :background ,ample/blue))))
+   `(avy-lead-face-1  ((t (:foreground "white" :background ,ample/fg))))
+
    `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
 
    `(hl-line ((t (:background "#1f1f1f"))))
@@ -265,10 +271,10 @@
    `(helm-ff-prefix   ((t (:foreground ,ample/red))))
    ;;`(helm-ff-symlink   ((t ())))
    ;;`(helm-grep-cmd-line  ((t ())))
-   ;;`(helm-grep-file   ((t ())))
+   `(helm-grep-file   ((t (:foreground ,ample/blue))))
    ;;`(helm-grep-finish   ((t ())))
-   ;;`(helm-grep-lineno   ((t ())))
-   ;;`(helm-grep-match   ((t ())))
+   `(helm-grep-lineno   ((t (:foreground ,ample/purple))))
+   `(helm-grep-match   ((t (:foreground ,ample/fg :background ,ample/region))))
    ;;`(helm-grep-running  ((t ())))
    `(helm-header   ((t (:foreground ,ample/bg :background ,ample/fg))))
    ;;`(helm-helper   ((t ())))
