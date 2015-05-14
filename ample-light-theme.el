@@ -663,7 +663,28 @@
    `(highlight-indentation-face                ((t (:foreground nil :background ,ample/region-dark))))
 
    ;; trailing whitespace
-   `(trailing-whitespace ((t (:background "white" :bold t)))))
+   `(trailing-whitespace ((t (:background "white" :bold t))))
+
+   ;; auctex
+   `(font-latex-bold-face                 ((t (:inherit bold :foreground ,ample/gray))))
+   `(font-latex-doctex-documentation-face ((t (:background unspecified))))
+   `(font-latex-doctex-preprocessor-face  ((t (:inherit (font-latex-doctex-documentation-face font-lock-builtin-face font-lock-preprocessor-face)))))
+   `(font-latex-italic-face               ((t (:inherit italic :foreground ,ample/gray))))
+   `(font-latex-math-face                 ((t (:foreground ,ample/purple))))
+   `(font-latex-sectioning-0-face         ((t (:inherit font-latex-sectioning-1-face :height 1.1))))
+   `(font-latex-sectioning-1-face         ((t (:inherit font-latex-sectioning-2-face :height 1.1))))
+   `(font-latex-sectioning-2-face         ((t (:inherit font-latex-sectioning-3-face :height 1.1))))
+   `(font-latex-sectioning-3-face         ((t (:inherit font-latex-sectioning-4-face :height 1.1))))
+   `(font-latex-sectioning-4-face         ((t (:inherit font-latex-sectioning-5-face :height 1.1))))
+   `(font-latex-sectioning-5-face         ((t (:foreground ,ample/red :weight bold))))
+   `(font-latex-sedate-face               ((t (:foreground ,ample/gray))))
+   `(font-latex-slide-title-face          ((t (:inherit font-lock-type-face :weight bold :height 1.2))))
+   `(font-latex-string-face               ((t (:inherit font-lock-string-face))))
+   `(font-latex-subscript-face            ((t (:height 0.8))))
+   `(font-latex-superscript-face          ((t (:height 0.8))))
+   `(font-latex-warning-face              ((t (:inherit font-lock-warning-face))))
+
+   ) ;; end of custom-theme-set-faces
 
   (custom-theme-set-variables
    'ample
