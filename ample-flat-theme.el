@@ -122,6 +122,12 @@
    `(ace-jump-face-background ((t (:inherit font-lock-comment-face))))
    `(ace-jump-face-foreground ((t (:foreground ,ample/orange))))
 
+
+   `(avy-background-face  ((t (:foreground ,ample/dark-gray :background nil))))
+   `(avy-lead-face  ((t (:foreground "white" :background ,ample/red))))
+   `(avy-lead-face-0  ((t (:foreground "white" :background ,ample/blue))))
+   `(avy-lead-face-1  ((t (:foreground "white" :background ,ample/fg))))
+
    `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
 
    `(hl-line ((t (:background "#1f1f1f"))))
