@@ -119,6 +119,7 @@
    ;; search
    `(isearch		((t (:background ,ample/blue :foreground ,ample/bg))))
    `(lazy-highlight	((t (:background ,ample/bg :foreground ,ample/purple :underline t))))
+   `(evil-search-highlight-persist-highlight-face ((t (:background ,ample/blue :foreground ,ample/bg))))
 
    ;; ace-jump
    `(ace-jump-face-background ((t (:inherit font-lock-comment-face))))
