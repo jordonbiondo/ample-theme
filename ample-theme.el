@@ -104,7 +104,8 @@
    `(font-lock-doc-face			((t (:foreground ,ample/dark-tan))))
 
    ;; mode line & powerline
-   `(powerline-active1	((t (:foreground ,ample/darkest-gray))))
+   `(powerline-active1	((t (:background ,ample/bg :foreground ,ample/fg))))
+   `(powerline-active2	((t (:background ,ample/dark-gray :foreground ,ample/fg))))
    `(mode-line-inactive ((t (:background ,ample/darker-gray :foreground "cornsilk4"))))
    `(mode-line		((t (:background "cornsilk4" :foreground ,ample/darkest-gray))))
 
