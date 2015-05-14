@@ -104,9 +104,12 @@
    `(font-lock-doc-face			((t (:foreground ,ample/dark-tan))))
 
    ;; mode line & powerline
-   `(powerline-active1	((t (:foreground ,ample/darkest-gray))))
-   `(mode-line-inactive ((t (:background ,ample/darker-gray :foreground "cornsilk4"))))
-   `(mode-line		((t (:background "cornsilk4" :foreground ,ample/darkest-gray))))
+   `(powerline-active1   ((t (:background ,ample/darkest-gray :foreground "cornsilk4"))))
+   `(powerline-active2   ((t (:background "cornsilk4" :foreground ,ample/darkest-gray ))))
+   `(powerline-inactive1 ((t (:background ,ample/bg :foreground "cornsilk4"))))
+   `(powerline-inactive2 ((t (:background ,ample/darker-gray :foreground "cornsilk4" ))))
+   `(mode-line-inactive  ((t (:background ,ample/darker-gray :foreground "cornsilk4"))))
+   `(mode-line           ((t (:background "cornsilk4" :foreground ,ample/darkest-gray))))
 
    `(linum ((t (:background nil :foreground ,ample/gray))))
 
