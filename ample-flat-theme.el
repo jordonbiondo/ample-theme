@@ -696,6 +696,11 @@
    `(font-latex-superscript-face          ((t (:height 0.8))))
    `(font-latex-warning-face              ((t (:inherit font-lock-warning-face))))
 
+   ;; guide-key
+   `(guide-key/prefix-command-face    ((t (:foreground ,ample/green))))
+   `(guide-key/highlight-command-face ((t (:foreground ,ample/blue))))
+   `(guide-key/key-face               ((t (:foreground ,ample/gray))))
+
    ) ;; end of custom-theme-set-faces
 
   (custom-theme-set-variables
