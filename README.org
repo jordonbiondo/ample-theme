@@ -5,10 +5,17 @@
 ** Installation
     Ample Theme is on Melpa, ensure that Melpa is added to your package archives, then use M-x package-install ample-theme.
     #+BEGIN_SRC emacs-lisp
-      ;; then in your init:
-      ;; do for either ample, ample-light, or ample-flat
-      (load-theme 'ample t)
+      ;; then in your init you can load all of the themes
+      ;; without enabling theme (or just load one)
+      (load-theme 'ample t t)
+      (load-theme 'ample-flat t t)
+      (load-theme 'ample-light t t)
+
+      ;; choose one to enable
       (enable-theme 'ample)
+      ;; (enable-theme 'ample-flat)
+      ;; (enable-theme 'ample-light)
+
     #+END_SRC
 ** If you get ugly colors in terminal:
    #+BEGIN_SRC shell-script
