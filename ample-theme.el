@@ -45,11 +45,11 @@
 (deftheme ample "A smooth dark theme.")
 
 ;; Not a bad idea to define a palette...
-(let ((ample/green "#6aaf50")
+(let ((ample/green "#45c25a")
       (ample/dark-green "#057f40")
-      (ample/blue "#5180b3")
+      (ample/blue "#5685ca")
       (ample/blue-bg "#102843")
-      (ample/light-blue "#528fd1")
+      (ample/light-blue "#6294da")
       (ample/lighter-blue "#68a5e9")
       (ample/orange "#dF9522")
       (ample/tan "#bdbc61")
@@ -75,7 +75,7 @@
       (ample/rb4 "#4170a3")
       (ample/rb5 "#757575")
 
-      (ample/bg "gray13")
+      (ample/bg "gray14")
       (ample/fg "#bdbdb3"))
 
 
