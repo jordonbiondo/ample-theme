@@ -692,6 +692,35 @@
    `(guide-key/highlight-command-face ((t (:foreground ,ample/blue))))
    `(guide-key/key-face               ((t (:foreground ,ample/gray))))
 
+   ;; custom
+   `(custom-button                  ((t (:foreground nil :background nil))))
+   `(custom-button-mouse            ((t (:foreground nil :background nil))))
+   `(custom-button-pressed          ((t (:foreground nil :background nil))))
+   `(custom-button-pressed-unraised ((t (:foreground ,ample/purple :background nil))))
+   `(custom-button-unraised         ((t (:foreground nil :background nil))))
+   `(custom-changed                 ((t (:foreground ,ample/red :background nil))))
+   `(custom-comment                 ((t (:foreground ,ample/bg :background ,ample/yellow))))
+   `(custom-comment-tag             ((t (:foreground ,ample/fg :background nil))))
+   `(custom-documentation           ((t (:foreground nil :background nil))))
+   `(custom-face-tag                ((t (:foreground ,ample/light-blue :background nil))))
+   `(custom-group-subtitle          ((t (:foreground nil :background nil :bold t))))
+   `(custom-group-tag               ((t (:foreground ,ample/light-blue :background nil :bold t))))
+   `(custom-group-tag-1             ((t (:foreground ,ample/yellow :background nil :bold t))))
+   `(custom-invalid                 ((t (:foreground ,ample/bg :background ,ample/red))))
+   `(custom-link                    ((t (:inherit button))))
+   `(custom-modified                ((t (:foreground ,ample/red :background nil))))
+   `(custom-rogue                   ((t (:foreground ,ample/yellow :background ,ample/bg))))
+   `(custom-saved                   ((t (:foreground nil :background nil :underline t))))
+   `(custom-set                     ((t (:foreground ,ample/fg :background ,ample/dark-gray))))
+   `(custom-state                   ((t (:foreground ,ample/green :background nil))))
+   `(custom-themed                  ((t (:foreground ,ample/red :background nil))))
+   `(custom-variable-button         ((t (:foreground nil :background nil :underline t :bold t))))
+   `(custom-variable-tag            ((t (:foreground ,ample/light-blue :background nil :bold t))))
+   `(custom-visibility              ((t (:inherit button))))
+
+   ;; widget
+   `(widget-field  ((t (:foreground ,ample/fg :background ,ample/dark-gray))))
+
    ) ;; end of custom-theme-set-faces
 
   (custom-theme-set-variables
