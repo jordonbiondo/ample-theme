@@ -609,7 +609,25 @@
    `(whitespace-tab			((t (:foreground ,ample/gray :background "grey15"))))
    `(whitespace-trailing		((t (:foreground ,ample/rb3 :background ,ample/bg :bold t))))
 
-   ;;magit
+   ;; magit
+   ;; new
+   `(magit-section-heading ((t (:foreground ,ample/blue, :background nil))))
+   `(magit-hash    ((t (:foreground ,ample/purple :background nil))))
+   `(magit-branch-local    ((t (:foreground ,ample/orange :background nil))))
+   `(magit-branch-remote    ((t (:foreground ,ample/yellow :background nil))))
+
+   `(magit-diff-added-highlight    ((t (:background ,ample/region :foreground ,ample/green))))
+   `(magit-diff-removed-highlight  ((t (:background ,ample/region :foreground ,ample/red))))
+   `(magit-diff-added ((t (:background nil :foreground ,ample/green))))
+   `(magit-diff-removed ((t (:background nil :foreground ,ample/red))))
+
+   `(magit-blame-date  ((t (:foreground ,ample/purple :background "grey25"))))
+   `(magit-blame-hash  ((t (:foreground ,ample/purple :background "grey25"))))
+   `(magit-blame-heading  ((t (:foreground ,ample/blue :background "grey25"))))
+   `(magit-blame-name  ((t (:foreground ,ample/green :background "grey25"))))
+   `(magit-blame-summary  ((t (:foreground ,ample/blue :background "grey25"))))
+
+   ;; old
    `(magit-branch				((t (:foreground ,ample/orange :background nil))))
    ;;`(magit-cherry-equivalent			((t (:foreground "cyan" :background nil))))
    ;;`(magit-cherry-unmatched			((t (:foreground "magenta" :background nil))))
