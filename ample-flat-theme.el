@@ -85,6 +85,7 @@
    `(default ((t (:foreground ,ample/fg :background ,ample/bg))))
    `(cursor  ((t (:foreground ,ample/bg :background ,ample/cursor))))
    `(fringe  ((t (:background ,ample/fringe))))
+   `(link    ((t (:foreground ,ample/lighter-blue :underline t))))
    `(region  ((t (:background ,ample/region))))
 
    ;; standard font lock
