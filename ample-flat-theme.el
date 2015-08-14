@@ -746,6 +746,27 @@
    `(custom-variable-tag            ((t (:foreground ,ample/light-blue :background nil :bold t))))
    `(custom-visibility              ((t (:inherit button))))
 
+   `(neo-banner-face              ((t (:foreground ,ample/light-blue :background nil :bold t))))
+   `(neo-button-face              ((t (:foreground nil :background nil))))
+   `(neo-dir-link-face            ((t (:foreground ,ample/blue :background nil))))
+   `(neo-expand-btn-face          ((t (:foreground ,ample/fg :background nil))))
+   `(neo-file-link-face           ((t (:foreground ,ample/fg :background nil))))
+   `(neo-header-face              ((t (:foreground ,ample/fg :background nil))))
+   `(neo-root-dir-face            ((t (:foreground ,ample/green :background nil :bold t))))
+   `(neo-vc-added-face            ((t (:foreground ,ample/green :background nil))))
+   `(neo-vc-conflict-face         ((t (:foreground ,ample/orange :background nil))))
+   `(neo-vc-default-face          ((t (:foreground ,ample/fg :background nil))))
+   `(neo-vc-edited-face           ((t (:foreground ,ample/yellow :background nil))))
+   `(neo-vc-ignored-face          ((t (:foreground ,ample/dark-gray :background nil))))
+   `(neo-vc-missing-face          ((t (:foreground ,ample/red :background nil))))
+   `(neo-vc-needs-merge-face      ((t (:foreground ,ample/orange :background nil))))
+   `(neo-vc-needs-update-face     ((t (:foreground nil :background nil :underline t))))
+   `(neo-vc-removed-face          ((t (:foreground ,ample/purple :background nil))))
+   `(neo-vc-unlocked-changes-face ((t (:foreground ,ample/red :background "Blue"))))
+   `(neo-vc-unregistered-face     ((t (:foreground nil :background nil))))
+   `(neo-vc-up-to-date-face       ((t (:foreground ,ample/fg :background nil))))
+
+
    ;; widget
    `(widget-field  ((t (:foreground ,ample/fg :background ,ample/dark-gray))))
 
