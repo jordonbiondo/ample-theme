@@ -296,7 +296,7 @@
    ;;`(helm-selection-line		((t ())))
    ;;`(helm-separator			((t ())))
    `(helm-source-header			((t (:foreground ,ample/darkest-gray :background ,ample/blue))))
-   ;;`(helm-visible-mark		((t ())))
+   `(helm-visible-mark		        ((t (:foreground ,ample/bg :background ,ample/green))))
 
    ;; jabber
    `(jabber-activity-face		((t (:inherit font-lock-variable-name-face :bold t))))
