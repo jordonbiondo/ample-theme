@@ -745,7 +745,7 @@
    ) ;; end of custom-theme-set-faces
 
   (custom-theme-set-variables
-   'ample
+   'ample-light
    `(ansi-color-names-vector
      [,ample/darker-gray ,ample/red ,ample/green ,ample/dark-tan ,ample/blue ,ample/purple ,ample/tan ,ample/fg])))
 
