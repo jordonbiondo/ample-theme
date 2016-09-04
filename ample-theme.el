@@ -612,21 +612,27 @@
 
    ;; magit
    ;; new
-   `(magit-section-heading        ((t (:foreground ,ample/blue, :background nil))))
-   `(magit-hash                   ((t (:foreground ,ample/purple :background nil))))
-   `(magit-branch-local           ((t (:foreground ,ample/orange :background nil))))
-   `(magit-branch-remote          ((t (:foreground ,ample/yellow :background nil))))
+   `(magit-section-heading             ((t (:foreground ,ample/blue, :background nil))))
+   `(magit-section-heading-selection   ((t (:foreground ,ample/lighter-blue))))
+   `(magit-hash                        ((t (:foreground ,ample/purple :background nil))))
+   `(magit-branch-local                ((t (:foreground ,ample/orange :background nil))))
+   `(magit-branch-remote               ((t (:foreground ,ample/yellow :background nil))))
 
-   `(magit-diff-added-highlight   ((t (:background ,ample/region :foreground ,ample/green))))
-   `(magit-diff-removed-highlight ((t (:background ,ample/region :foreground ,ample/red))))
-   `(magit-diff-added             ((t (:background nil :foreground ,ample/green))))
-   `(magit-diff-removed           ((t (:background nil :foreground ,ample/red))))
+   `(magit-diff-added-highlight        ((t (:background ,ample/region :foreground ,ample/green))))
+   `(magit-diff-removed-highlight      ((t (:background ,ample/region :foreground ,ample/red))))
+   `(magit-diff-added                  ((t (:background nil :foreground ,ample/green))))
+   `(magit-diff-removed                ((t (:background nil :foreground ,ample/red))))
+   `(magit-diff-file-heading-selection ((t (:foreground ,ample/lighter-blue :inherit magit-diff-file-heading-highlight))))
+   `(magit-diff-hunk-heading-selection ((t (:foreground ,ample/lighter-blue :inherit magit-diff-hunk-heading-highlight))))
+   `(magit-diff-lines-heading          ((t (:background ,ample/light-blue :foreground ,ample/bg))))
 
-   `(magit-blame-date             ((t (:foreground ,ample/purple :background "grey25"))))
-   `(magit-blame-hash             ((t (:foreground ,ample/purple :background "grey25"))))
-   `(magit-blame-heading          ((t (:foreground ,ample/blue :background "grey25"))))
-   `(magit-blame-name             ((t (:foreground ,ample/green :background "grey25"))))
-   `(magit-blame-summary          ((t (:foreground ,ample/blue :background "grey25"))))
+   `(magit-blame-date                  ((t (:foreground ,ample/purple :background "grey25"))))
+   `(magit-blame-hash                  ((t (:foreground ,ample/purple :background "grey25"))))
+   `(magit-blame-heading               ((t (:foreground ,ample/blue :background "grey25"))))
+   `(magit-blame-name                  ((t (:foreground ,ample/green :background "grey25"))))
+   `(magit-blame-summary               ((t (:foreground ,ample/blue :background "grey25"))))
+
+   `(magit-popup-argument              ((t (:foreground ,ample/red :inherit font-lock-warning-face))))
 
    ;; old
    `(magit-branch				((t (:foreground ,ample/orange :background nil))))
