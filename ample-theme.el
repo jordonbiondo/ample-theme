@@ -613,7 +613,7 @@
 
    ;; magit
    ;; new
-   `(magit-section-heading             ((t (:foreground ,ample/blue, :background nil))))
+   `(magit-section-heading             ((t (:foreground ,ample/blue :background nil))))
    `(magit-section-heading-selection   ((t (:foreground ,ample/lighter-blue))))
    `(magit-hash                        ((t (:foreground ,ample/purple :background nil))))
    `(magit-branch-local                ((t (:foreground ,ample/orange :background nil))))
