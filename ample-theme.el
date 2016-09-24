@@ -57,6 +57,7 @@
       (ample/yellow "#baba36")
       (ample/bright-yellow "#fffe0a")
       (ample/purple "#ab75c3")
+      (ample/light-gray "#858585")
       (ample/gray "#757575")
       (ample/dark-gray "#656565")
       (ample/darker-gray "#454545")
@@ -90,6 +91,7 @@
    `(fringe  ((t (:background ,ample/fringe))))
    `(link    ((t (:foreground ,ample/lighter-blue :underline t))))
    `(region  ((t (:background ,ample/region))))
+   `(shadow  ((t (:foreground ,ample/light-gray))))
 
    ;; standard font lock
    `(font-lock-builtin-face		((t (:foreground ,ample/light-blue))))
