@@ -747,7 +747,7 @@
   (custom-theme-set-variables
    'ample-light
    `(ansi-color-names-vector
-     [,ample/darker-gray ,ample/red ,ample/green ,ample/dark-tan ,ample/blue ,ample/purple ,ample/tan ,ample/fg])))
+     [,ample/darker-gray ,ample/red ,ample/green ,ample/dark-tan ,ample/blue ,ample/purple ,ample/lighter-blue ,ample/fg])))
 
 ;;;###autoload
 (when load-file-name
