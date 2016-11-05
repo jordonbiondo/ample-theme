@@ -133,9 +133,11 @@
    `(ace-jump-face-foreground ((t (:foreground ,ample/orange))))
 
    `(avy-background-face  ((t (:foreground ,ample/dark-gray :background nil))))
+   `(avy-goto-char-timer-face ((t (:foreground ,ample/fg :background ,ample/dark-green))))
    `(avy-lead-face  ((t (:foreground ,ample/fg :background ,ample/dark-red))))
    `(avy-lead-face-0  ((t (:foreground ,ample/fg :background ,ample/blue))))
    `(avy-lead-face-1  ((t (:foreground ,ample/bg :background ,ample/fg))))
+   `(avy-lead-face-2  ((t (:foreground ,ample/fg :background ,ample/purple))))
 
    `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
 
