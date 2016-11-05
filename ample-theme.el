@@ -713,6 +713,9 @@
    ;;`(font-latex-superscript-face        ((t (:height 0.8))))
    `(font-latex-verbatim-face             ((t (:foreground ,ample/tan))))
    `(font-latex-warning-face              ((t (:inherit font-lock-warning-face))))
+   `(TeX-error-description-error          ((t (:inherit error :bold t))))
+   `(TeX-error-description-tex-said       ((t (:foreground ,ample/lighter-blue))))
+   `(TeX-error-description-warning        ((t (:foreground ,ample/orange :bold t))))
 
    ;; guide-key
    `(guide-key/prefix-command-face    ((t (:foreground ,ample/green))))
