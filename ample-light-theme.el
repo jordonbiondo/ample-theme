@@ -161,6 +161,18 @@
    ;; shell
    `(comint-highlight-prompt ((t (:foreground ,ample/green))))
 
+   ;; term
+   `(term-color-black ((t (:foreground ,ample/darkest-gray :background ,ample/darkest-gray))))
+   `(term-color-red ((t (:foreground ,ample/red :background ,ample/red))))
+   `(term-color-green ((t (:foreground ,ample/green :background ,ample/green))))
+   `(term-color-yellow ((t (:foreground ,ample/yellow :background ,ample/yellow))))
+   `(term-color-blue ((t (:foreground ,ample/blue :background ,ample/blue))))
+   `(term-color-magenta ((t (:foreground ,ample/purple :background ,ample/purple))))
+   `(term-color-cyan ((t (:foreground ,ample/lighter-blue :background ,ample/lighter-blue))))
+   `(term-color-white ((t (:foreground ,ample/fg :background ,ample/fg))))
+   `(term-default-fg-color ((t (:inherit ample/fg))))
+   `(term-default-bg-color ((t (:inherit ample/bg))))
+
    ;; erc
    `(erc-nick-default-face ((t (:foreground ,ample/blue))))
    `(erc-my-nick-face ((t (:foreground ,ample/yellow))))
