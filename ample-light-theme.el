@@ -72,7 +72,7 @@
        (ample/region "#BBB9A1")
        (ample/region-dark "#ABA991")
        (ample/region-light "#d2d0b1")
-       
+
        (ample/rb0 "#215083")
        (ample/rb1 "#555555")
        (ample/rb2 "#515003")
@@ -750,6 +750,17 @@
    `(neo-vc-unlocked-changes-face ((t (:foreground ,ample/red :background "Blue"))))
    `(neo-vc-unregistered-face     ((t (:foreground nil :background nil))))
    `(neo-vc-up-to-date-face       ((t (:foreground ,ample/fg :background nil))))
+
+   ;; realgud
+   `(realgud-overlay-arrow1         ((t (:foreground ,ample/green))))
+   `(realgud-overlay-arrow2         ((t (:foreground ,ample/bright-yellow))))
+   `(realgud-overlay-arrow3         ((t (:foreground ,ample/orange))))
+   `(realgud-bp-enabled-face        ((t (:inherit error))))
+   `(realgud-bp-disabled-face       ((t (:inherit secondary-selection))))
+   `(realgud-bp-line-enabled-face   ((t (:foreground ,ample/bg :background ,ample/red))))
+   `(realgud-bp-line-disabled-face  ((t (:inherit secondary-selection))))
+   `(realgud-line-number            ((t (:foreground ,ample/yellow))))
+   `(realgud-backtrace-number       ((t (:foreground ,ample/yellow, :weight bold))))
 
    ;; widget
    `(widget-field  ((t (:foreground ,ample/fg :background ,ample/region-dark))))
