@@ -784,9 +784,9 @@
    `(realgud-overlay-arrow2         ((t (:foreground ,ample/bright-yellow))))
    `(realgud-overlay-arrow3         ((t (:foreground ,ample/orange))))
    `(realgud-bp-enabled-face        ((t (:inherit error))))
-   `(realgud-bp-disabled-face       ((t (:inherit secondary-selection))))
-   `(realgud-bp-line-enabled-face   ((t (:foreground ,ample/bg :background ,ample/red))))
-   `(realgud-bp-line-disabled-face  ((t (:inherit secondary-selection))))
+   `(realgud-bp-disabled-face       ((t (:foreground ,ample/dark-gray))))
+   `(realgud-bp-line-enabled-face   ((t (:underline ,ample/red))))
+   `(realgud-bp-line-disabled-face  ((t (:underline ,ample/dark-gray))))
    `(realgud-line-number            ((t (:foreground ,ample/yellow))))
    `(realgud-backtrace-number       ((t (:foreground ,ample/yellow, :weight bold))))
 
