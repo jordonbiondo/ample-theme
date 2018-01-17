@@ -785,8 +785,8 @@
    `(realgud-overlay-arrow3         ((t (:foreground ,ample/orange))))
    `(realgud-bp-enabled-face        ((t (:inherit error))))
    `(realgud-bp-disabled-face       ((t (:foreground ,ample/dark-gray))))
-   `(realgud-bp-line-enabled-face   ((t (:underline ,ample/red))))
-   `(realgud-bp-line-disabled-face  ((t (:underline ,ample/dark-gray))))
+   `(realgud-bp-line-enabled-face   ((t (:box (:color ,ample/red)))))
+   `(realgud-bp-line-disabled-face  ((t (:box (:color "grey50")))))
    `(realgud-line-number            ((t (:foreground ,ample/yellow))))
    `(realgud-backtrace-number       ((t (:foreground ,ample/yellow, :weight bold))))
 
