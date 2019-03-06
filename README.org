@@ -31,6 +31,7 @@
    #+END_SRC
 ** All Three Themes:
    [[http://i.imgur.com/WZjJty6.png]]
+   Font is [[https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released][Envy Code R]]
 
 ** Old Screenshots:
 *** Ample-theme in Emacs.app on osx
