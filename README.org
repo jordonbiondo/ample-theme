@@ -33,9 +33,9 @@
      (with-eval-after-load "ample-theme"
        ;; add one of these blocks for each of the themes you want to customize
        (custom-theme-set-faces
-	'ample
-	;; this will overwride the color of strings just for ample-theme
-	'(font-lock-string-face ((t (:foreground "#bdba81"))))))
+         'ample
+         ;; this will overwride the color of strings just for ample-theme
+         '(font-lock-string-face ((t (:foreground "#bdba81"))))))
    #+END_SRC
 ** If you get ugly colors in terminal:
    #+BEGIN_SRC shell-script
