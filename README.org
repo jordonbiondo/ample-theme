@@ -24,6 +24,19 @@
         :defer t
         :ensure t)
     #+END_SRC
+** Easy Customization
+    #+BEGIN_SRC emacs-lisp
+      You can use the following example to customize ample theme in a way that won't affect other themes.
+
+      For example, some users prefer to use a different color for strings or the region for more contrast.
+
+      (with-eval-after-load "ample-theme"
+	;; add one of these blocks for each of the themes you want to customize
+	(custom-theme-set-faces
+	 'ample
+	 ;; this will overwride the color of strings just for ample-theme
+	 '(font-lock-string-face ((t (:foreground "#bdba81"))))))
+    #+END_SRC
 ** If you get ugly colors in terminal:
    #+BEGIN_SRC shell-script
      # throw this in your ~/.bash_profile
