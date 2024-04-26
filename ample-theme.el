@@ -827,6 +827,25 @@
    `(realgud-line-number            ((t (:foreground ,ample/yellow))))
    `(realgud-backtrace-number       ((t (:foreground ,ample/yellow, :weight bold))))
 
+   `(lsp-headerline-breadcrumb-deprecated-face              ((t  (:foreground  ,ample/bg           :background  unspecified))))
+   `(lsp-headerline-breadcrumb-path-error-face              ((t  (:foreground  ,ample/bg           :background  unspecified  :underline  ,ample/red))))
+   `(lsp-headerline-breadcrumb-path-face                    ((t  (:foreground  ,ample/bg           :background  unspecified))))
+   `(lsp-headerline-breadcrumb-path-hint-face               ((t  (:foreground  ,ample/bg           :background  unspecified  :underline  ,ample/bg))))
+   `(lsp-headerline-breadcrumb-path-info-face               ((t  (:foreground  ,ample/bg           :background  unspecified  :underline  ,ample/blue))))
+   `(lsp-headerline-breadcrumb-path-warning-face            ((t  (:foreground  ,ample/bg           :background  unspecified  :underline  ,ample/yellow))))
+   `(lsp-headerline-breadcrumb-project-prefix-face          ((t  (:foreground  ,ample/bg           :background  unspecified  :bold       t))))
+   `(lsp-headerline-breadcrumb-separator-face               ((t  (:foreground  ,ample/region       :background  unspecified))))
+   `(lsp-headerline-breadcrumb-symbols-error-face           ((t  (:foreground  ,ample/bg           :background  unspecified  :underline  ,ample/red))))
+   `(lsp-headerline-breadcrumb-symbols-face                 ((t  (:foreground  ,ample/bg           :background  unspecified  :bold       t))))
+   `(lsp-headerline-breadcrumb-symbols-hint-face            ((t  (:foreground  ,ample/bg           :background  unspecified  :underline  ,ample/bg))))
+   `(lsp-headerline-breadcrumb-symbols-info-face            ((t  (:foreground  ,ample/bg           :background  unspecified  :underline  ,ample/blue))))
+   `(lsp-headerline-breadcrumb-symbols-warning-face         ((t  (:foreground  ,ample/bg           :background  unspecified  :underline  ,ample/yellow))))
+   `(lsp-headerline-breadcrumb-unknown-project-prefix-face  ((t  (:foreground  ,ample/bg           :background  unspecified  :bold       t))))
+
+   ;; `(lsp-face-highlight-read     ((t  (:foreground  unspecified  :background  ,ample/region  :underline  t))))
+   ;; `(lsp-face-highlight-textual  ((t  (:foreground  unspecified  :background  ,ample/region))))
+   ;; `(lsp-face-highlight-write    ((t  (:foreground  unspecified  :background  ,ample/region  :bold       t))))
+
    ;; widget
    `(widget-field  ((t (:foreground ,ample/fg :background ,ample/dark-gray))))
 
